@@ -1,0 +1,206 @@
+div#container
+{
+   width: 400px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Blog1
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: left;
+}
+#Blog1 .blogitem
+{
+   background-color: #EEEEEE;
+   margin-bottom: 13px;
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Blog1 .blogdate
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   font-style: italic;
+   text-decoration: none;
+}
+#Blog1 .blogsubject
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #4F4F4F;
+   font-style: normal;
+   text-decoration: none;
+}
+#Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
+{
+   color: inherit;
+   text-decoration: inherit;
+}
+#Blog1 .blogcomments
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   font-style: normal;
+   text-decoration: underline;
+}
+#Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
+{
+   color: inherit;
+   text-decoration: inherit;
+}
+#Blog1 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog1 .no-thumb
+{
+   display: none;
+}
+#Blog1 .blogbutton
+{
+   display: none !important;
+}
+#Blog1 .blogitem
+{
+   background-color: transparent;
+   display: inline-block;
+   width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0;
+}
+#Blog1 .blogblock
+{
+   background-color: #EEEEEE;
+   border: 1px solid #cccccc;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 10px;
+   width: 100%;
+}
+#Blog1 .blogsubject
+{
+   background-color: #EEEEEE;
+   border: 1px solid #cccccc;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   display: block;
+   margin: 0 0 6px 0;  
+   padding: 10px;
+}
+#Blog1 .blogtext
+{
+//   display: inline-block;
+   height: 100%;
+}
+#Blog1 .blogthumb
+{
+   background-color: #FFFFFF;
+   padding: 4px;
+   margin: 5px;
+   float: right;
+   border: 1px solid #ddd;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+   box-shadow: 0px 1px 3px rgba(0,0,0,0.055);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+   display: inline-block;
+}
+#Blog1 .blogthumb img
+{
+   border-width: 0;
+   width: 100px;
+   height: auto;
+   vertical-align: middle;
+   margin: 0px 0px 0px 0px;
+}
+#Blog1 .blogbutton
+{
+   font-family: Arial;
+   font-size: 13px;
+   text-decoration: underline;
+   margin-top: 6px;
+   cursor: pointer;
+   color: #000000;
+}
+#Blog1 .pager
+{
+   margin: 2px 0px 2px 0px;
+}
+#Blog1 .page-number
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: none;
+   padding: 1px 4px 1px 4px;
+   cursor: pointer;
+   border: 1px #EEEEEE solid;
+   margin-right: 2px;
+}
+#Blog1 .active 
+{
+   background-color: #EEEEEE;
+}

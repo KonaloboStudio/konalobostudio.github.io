@@ -1,0 +1,533 @@
+div#container
+{
+   width: 800px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #383D43;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Layer1
+{
+   background-color: #1E2329;
+   background-image: none;
+   border-radius: 0px;
+}
+#Shape4
+{
+   width: 281px;
+   height: 1058px;
+   background-color: #26292E;
+   background-image: none;
+   border: 0px #B9BDC0 solid;
+}
+#Shape4_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+    left: 0.36%;
+   top: 0.09%;
+   width: 99.29%;
+   height: 99.81%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#Shape1
+{
+   width: 245px;
+   height: 31px;
+   background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
+   border: 2px #336200 solid;
+}
+#Shape1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+    left: 0.41%;
+   top: 3.23%;
+   width: 99.18%;
+   height: 93.55%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Layer4
+{
+   background-color: #1E2329;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #494C51;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape3
+{
+   width: 519px;
+   height: 120px;
+   background-color: #2F3237;
+   background-image: none;
+   border: 0px #A9A9A9 solid;
+}
+#Shape3_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+    left: 0.19%;
+   top: 0.83%;
+   width: 99.61%;
+   height: 98.33%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Shape2
+{
+   width: 519px;
+   height: 938px;
+   background-color: #2A2D32;
+   background-image: none;
+   border: 0px #A9A9A9 solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+    left: 0.19%;
+   top: 0.11%;
+   width: 99.61%;
+   height: 99.79%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#Shape6
+{
+   width: 245px;
+   height: 31px;
+   background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
+   border: 2px #336200 solid;
+}
+#Shape6_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+    left: 0.41%;
+   top: 3.23%;
+   width: 99.18%;
+   height: 93.55%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9
+{
+   color: #CED1D6;
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 18.5px;
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border-width: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#YouTube1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#YouTube2
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7
+{
+   color: #CED1D6;
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 18.5px;
+}
+#wb_Text7 p, #wb_Text7 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_gogle_icon
+{
+   vertical-align: top;
+}
+#gogle_icon
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   filter: drop-shadow(0px 0px 4px rgba(0,0,0,1.00));
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_Image6
+{
+   vertical-align: top;
+}
+#Image6
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#wb_Image7
+{
+   vertical-align: top;
+}
+#Image7
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#wb_Image8
+{
+   vertical-align: top;
+}
+#Image8
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#YouTube3
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}

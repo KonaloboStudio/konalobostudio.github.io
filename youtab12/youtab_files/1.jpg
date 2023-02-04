@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+   <link rel="stylesheet" href="http://gramsk.ru/style/themes/web/style.css" type="text/css">
+   <title>404. Сайт или страница не найдены на Неонароде</title>
+</head>
+<body text="#000000" bgcolor="#ffffff" background="http://lionovsky.ru/f/neonarod/back.gif">
+<center><a href="http://gramsk.ru"><img src="http://lionovsky.ru/f/neonarod/logo.gif" align="center"></a></center>
+<table align="center" class="main sq_top">
+<tr><td class="main_td" width="700">
+<p><img src="http://lionovsky.ru/f/neonarod/404.gif" align="right">
+<p><big><b>Упсс...</b></big></p>
+<p>Страница не найдена!</p> 
+<p>Скорее всего вы, или автор сайта попали сюда по неправильной ссылке. А если вы здесь очутились перейдя в "корень" сайта - то необходимо положить туда index.html, чтоб ошибки не было :( </p>
+<p>Давайте <a href="http://gramsk.ru/users.php">поищем на Gramsk'e что-то ещё?</a></p><br><br></p></td></tr>
+</table>
+ 
+
+
+</body>
+</html>
