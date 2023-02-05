@@ -1,20 +1,33 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -322px;
+   float:left
+}
 div#container
 {
    width: 970px;
+   height: 645px;
+   margin: 0 auto;
    position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
+   clear: left;
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #F5F5F5;
+   background-image: url('images/404_bkgrnd.png');
    color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 a
 {
@@ -93,6 +106,10 @@ input:focus, textarea:focus, select:focus
 }
 #Button1
 {
+   box-sizing: border-box;
+   line-height: 23px;
+   text-decoration: none;
+   vertical-align: top;
    border: 1px solid #2E6DA4;
    border-radius: 4px;
    background-image: linear-gradient(to bottom, #E0F3FA 0%, #D8F0FC 50%, #B8E2F6 51%, #B6DFFD 100%);
@@ -113,4 +130,21 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px #245580 solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.67%;
+   top: 3.33%;
+   width: 96.67%;
+   height: 93.33%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
 }

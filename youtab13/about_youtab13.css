@@ -635,20 +635,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text9 div
-{
-   text-align: left;
-}
 #wb_Text10 
 {
    background-color: transparent;
@@ -702,7 +688,7 @@ input:focus, textarea:focus, select:focus
    top: 52px;
    width: 1283px;
    height: 40px;
-   z-index: 30;
+   z-index: 29;
 }
 #Combobox3
 {
@@ -720,7 +706,7 @@ input:focus, textarea:focus, select:focus
    top: 52px;
    width: 96px;
    height: 40px;
-   z-index: 31;
+   z-index: 30;
 }
 #Button2
 {
@@ -757,7 +743,7 @@ input:focus, textarea:focus, select:focus
    top: 115px;
    width: 175px;
    height: 26px;
-   z-index: 14;
+   z-index: 13;
 }
 #Button1
 {
@@ -775,7 +761,7 @@ input:focus, textarea:focus, select:focus
    top: 320px;
    width: 1010px;
    height: 48px;
-   z-index: 28;
+   z-index: 27;
 }
 #Editbox1
 {
@@ -793,7 +779,7 @@ input:focus, textarea:focus, select:focus
    top: 397px;
    width: 1010px;
    height: 49px;
-   z-index: 29;
+   z-index: 28;
 }
 #Line6
 {
@@ -810,7 +796,7 @@ input:focus, textarea:focus, select:focus
    top: 477px;
    width: 1031px;
    height: 48px;
-   z-index: 32;
+   z-index: 31;
 }
 #wb_Text7
 {
@@ -827,7 +813,7 @@ input:focus, textarea:focus, select:focus
    left: 226px;
    top: 92px;
    width: 1px;
-   z-index: 24;
+   z-index: 23;
 }
 #wb_Text12
 {
@@ -836,7 +822,7 @@ input:focus, textarea:focus, select:focus
    top: 554px;
    width: 1031px;
    height: 45px;
-   z-index: 33;
+   z-index: 32;
 }
 #wb_Text1
 {
@@ -845,7 +831,7 @@ input:focus, textarea:focus, select:focus
    top: 110px;
    width: 1013px;
    height: 33px;
-   z-index: 25;
+   z-index: 24;
 }
 #wb_Text11
 {
@@ -854,7 +840,7 @@ input:focus, textarea:focus, select:focus
    top: 91px;
    width: 161px;
    height: 13px;
-   z-index: 13;
+   z-index: 12;
 }
 #PageFooter2
 {
@@ -865,7 +851,7 @@ input:focus, textarea:focus, select:focus
    top: 878px;
    width: 100%;
    height: 125px;
-   z-index: 34;
+   z-index: 33;
 }
 #wb_Text2
 {
@@ -874,7 +860,7 @@ input:focus, textarea:focus, select:focus
    top: 165px;
    width: 1031px;
    height: 48px;
-   z-index: 26;
+   z-index: 25;
 }
 #wb_Shape12
 {
@@ -884,7 +870,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 23;
+   z-index: 22;
 }
 #wb_Shape18
 {
@@ -894,7 +880,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 21;
+   z-index: 20;
 }
 #wb_Shape16
 {
@@ -904,7 +890,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 20;
+   z-index: 19;
 }
 #wb_Shape14
 {
@@ -914,7 +900,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 19;
+   z-index: 18;
 }
 #wb_Shape11
 {
@@ -924,7 +910,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 18;
+   z-index: 17;
 }
 #wb_Shape10
 {
@@ -934,16 +920,16 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Text10
 {
    position: absolute;
    left: 30px;
-   top: 92px;
+   top: 91px;
    width: 115px;
    height: 12px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_Text3
 {
@@ -952,7 +938,7 @@ input:focus, textarea:focus, select:focus
    top: 239px;
    width: 1031px;
    height: 45px;
-   z-index: 27;
+   z-index: 26;
 }
 #wb_Shape20
 {
@@ -962,7 +948,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 22;
+   z-index: 21;
 }
 #wb_Shape4
 {
@@ -972,7 +958,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 15;
+   z-index: 14;
 }
 #wb_Text8
 {
@@ -991,16 +977,7 @@ input:focus, textarea:focus, select:focus
    width: 175px;
    height: 26px;
    visibility: hidden;
-   z-index: 16;
-}
-#wb_Text9
-{
-   position: absolute;
-   left: 423px;
-   top: 68px;
-   width: 250px;
-   height: 15px;
-   z-index: 11;
+   z-index: 15;
 }
 #Combobox1
 {
@@ -1466,20 +1443,6 @@ body
    display: inline;
 }
 #wb_Text8
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text9
-{
-   left: 419px;
-   top: 68px;
-   width: 250px;
-   height: 16px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
 {
    margin: 0;
    padding: 0;
@@ -1973,20 +1936,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Text9
-{
-   left: 423px;
-   top: 68px;
-   width: 250px;
-   height: 15px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text10
 {
    left: 30px;
@@ -2472,20 +2421,6 @@ body
    display: inline;
 }
 #wb_Text8
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text9
-{
-   left: 419px;
-   top: 68px;
-   width: 250px;
-   height: 15px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
 {
    margin: 0;
    padding: 0;

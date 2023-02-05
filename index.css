@@ -646,26 +646,6 @@ input:focus, textarea:focus, select:focus
    height: 46px;
    font-size: 0;
 }
-#sett_pole .cell2
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: top;
-   height: 46px;
-   font-size: 0;
-}
-#sett_pole .cell3
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: top;
-   height: 46px;
-   font-size: 0;
-}
 #konamusic
 {
    background-image: linear-gradient(to top, rgba(246,248,249,0.67) 0%, rgba(229,235,238,0.67) 50%, rgba(215,222,227,0.67) 51%, rgba(245,247,249,0.67) 100%);
@@ -820,6 +800,141 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
+}
+#youtab12_prew
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#youtab12_prew .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#youtab12_prew.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#youtab12_prew .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#youtab12_prew .modal-open
+{
+   overflow: hidden;
+}
+#youtab12_prew .modal-dialog
+{
+   position: relative;
+   width: 534px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#youtab12_prew .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#youtab12_prew .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8CAC7;
+   border-bottom: 1px solid #F39595;
+}
+#youtab12_prew .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #F39595;
+}
+#youtab12_prew .modal-body
+{
+   position: relative;
+   width: 534px;
+   height: 399px;
+}
+#youtab12_prew .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #FFFFFF;
+   margin-right: -9px;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#youtab12_prew .modal-header
+{
+   cursor: move;
+}
+#youtab12_prew .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#youtab12_prew .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#youtab12_prew .modal-title
+{
+   color: #FFFFFF;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   margin: 0;
 }
 #youtab13_prew
 {
@@ -1007,141 +1122,6 @@ input:focus, textarea:focus, select:focus
    padding: 1px 6px 1px 6px;
    text-align: center;
    -webkit-appearance: none;
-   margin: 0;
-}
-#youtab12_prew
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#youtab12_prew .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DDDDDD;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#youtab12_prew.modal
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow: hidden;
-   -webkit-overflow-scrolling: touch;
-   outline: 0;
-}
-#youtab12_prew .modal-open .modal
-{
-   overflow-x: hidden;
-   overflow-y: auto;
-}
-#youtab12_prew .modal-open
-{
-   overflow: hidden;
-}
-#youtab12_prew .modal-dialog
-{
-   position: relative;
-   width: 534px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#youtab12_prew .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#youtab12_prew .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8CAC7;
-   border-bottom: 1px solid #F39595;
-}
-#youtab12_prew .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #F39595;
-}
-#youtab12_prew .modal-body
-{
-   position: relative;
-   width: 534px;
-   height: 399px;
-}
-#youtab12_prew .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #FFFFFF;
-   margin-right: -9px;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   -webkit-transition: opacity .15s linear;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#youtab12_prew .modal-header
-{
-   cursor: move;
-}
-#youtab12_prew .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: 1.75rem auto;
-   min-height: calc(100% - 3.5rem);
-   pointer-events: none;
-}
-#youtab12_prew .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#youtab12_prew .modal-title
-{
-   color: #FFFFFF;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
    margin: 0;
 }
 #youtube_prew
@@ -3280,4 +3260,45 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_go_neonar 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_go_neonar div
+{
+   text-align: center;
+}
+#wb_go_neonar
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#go_neonar1
+{
+   box-sizing: border-box;
+   line-height: 25px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 0px solid #2E6DA4;
+   border-radius: 0px;
+   background-color: #2E8B57;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
 }
