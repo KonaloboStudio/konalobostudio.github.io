@@ -674,9 +674,9 @@ sup {
 }
 body {
  color:#333;
- background:no-repeat url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
- background-color:#ebebeb;
- background-repeat:repeat
+ background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
+ background-color: #ebebeb;
+ background-repeat: repeat;
 }
 a {
  cursor:pointer
@@ -866,14 +866,16 @@ label {
  zoom:1
 }
 #masthead-container {
- position:relative;
- *position:static;
+ position:relative;*
+ position:static;
  z-index:1;
  margin:0;
  border-bottom:none;
  background:no-repeat url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
  background-color:#ebebeb;
  background-repeat:repeat
+
+
 }
 #masthead,
 #masthead-subnav {
@@ -922,9 +924,13 @@ label {
 }
 #logo {
  display:block;
- background:no-repeat url(/index_files/www-refresh-vflMLqC23.png) -114px -51px;
+ background:no-repeat url(/youtab_files/www-refresh-vflMLqC23.png) -114px -51px;
  width:100px;
  height:40px
+
+
+
+
 }
 #logo.doodle {
  background:none
@@ -1185,7 +1191,7 @@ label {
 }
 #footer-logo img {
  opacity:.6;
- background:no-repeat url(/index_files/www-refresh-vflMLqC23.png) -58px -93px;
+ background:no-repeat url(/youtab_files/www-refresh-vflMLqC23.png) -58px -93px;
  width:93px;
  height:40px
 }
