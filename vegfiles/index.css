@@ -1,6 +1,6 @@
 div#container
 {
-   width: 800px;
+   width: 900px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -38,16 +38,32 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#Layer1
+#PageHeader1
 {
    background-color: #1E2329;
    background-image: none;
    border-radius: 0px;
+   box-sizing: border-box;
+}
+#wb_Image13
+{
+   vertical-align: top;
+}
+#Image13
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Shape4
 {
-   width: 281px;
-   height: 1058px;
+   width: 329px;
+   height: 1712px;
    background-color: #26292E;
    background-image: none;
    border: 0px #B9BDC0 solid;
@@ -60,10 +76,10 @@ input:focus, textarea:focus, select:focus
    align-items: flex-start;
    justify-content: flex-start;
    flex-direction: column;
-    left: 0.36%;
-   top: 0.09%;
-   width: 99.29%;
-   height: 99.81%;
+    left: 0.3%;
+   top: 0.06%;
+   width: 99.39%;
+   height: 99.88%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: left;
@@ -71,7 +87,7 @@ input:focus, textarea:focus, select:focus
 }
 #Shape1
 {
-   width: 245px;
+   width: 293px;
    height: 31px;
    background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
    border: 2px #336200 solid;
@@ -82,11 +98,11 @@ input:focus, textarea:focus, select:focus
    pointer-events: none;
    display: flex;
    align-items: flex-start;
-   justify-content: flex-start;
+   justify-content: center;
    flex-direction: column;
-    left: 0.41%;
+    left: 3.75%;
    top: 3.23%;
-   width: 99.18%;
+   width: 95.9%;
    height: 93.55%;
    box-sizing: border-box;
    overflow: hidden;
@@ -107,12 +123,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#Layer4
-{
-   background-color: #1E2329;
-   background-image: none;
-   border-radius: 0px;
-}
 #wb_Text11 
 {
    background-color: transparent;
@@ -127,28 +137,14 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #494C51;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Shape3
 {
-   width: 519px;
-   height: 120px;
+   width: 571px;
+   height: 1712px;
    background-color: #2F3237;
    background-image: none;
    border: 0px #A9A9A9 solid;
+   box-shadow: 0px 0px 15px rgba(0,0,0,0.78);
 }
 #Shape3_text
 {
@@ -158,10 +154,10 @@ input:focus, textarea:focus, select:focus
    align-items: flex-start;
    justify-content: flex-start;
    flex-direction: column;
-    left: 0.19%;
-   top: 0.83%;
-   width: 99.61%;
-   height: 98.33%;
+    left: 0.18%;
+   top: 0.06%;
+   width: 99.65%;
+   height: 99.88%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: left;
@@ -169,92 +165,16 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Text4 
 {
-   background-color: transparent;
+   background-color: rgba(255,255,255,0.20);
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
+   box-shadow: 0px 5px 10px #000000;
 }
 #wb_Text4 div
-{
-   text-align: left;
-}
-#Shape2
-{
-   width: 519px;
-   height: 938px;
-   background-color: #2A2D32;
-   background-image: none;
-   border: 0px #A9A9A9 solid;
-}
-#Shape2_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   flex-direction: column;
-    left: 0.19%;
-   top: 0.11%;
-   width: 99.61%;
-   height: 99.79%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: left;
-   word-wrap: break-word;
-}
-#Shape6
-{
-   width: 245px;
-   height: 31px;
-   background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
-   border: 2px #336200 solid;
-}
-#Shape6_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   flex-direction: column;
-    left: 0.41%;
-   top: 3.23%;
-   width: 99.18%;
-   height: 93.55%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: left;
-   word-wrap: break-word;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text3 div
-{
-   text-align: left;
-}
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text5 div
 {
    text-align: left;
 }
@@ -338,14 +258,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#YouTube1
-{
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   border-width: 0;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -359,14 +271,6 @@ input:focus, textarea:focus, select:focus
 #wb_Text2 div
 {
    text-align: left;
-}
-#YouTube2
-{
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   border-width: 0;
 }
 #wb_Text7 
 {
@@ -523,11 +427,174 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#YouTube3
+#wb_Text14 
 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Image9
+{
+   vertical-align: top;
+}
+#Image9
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
    height: 100%;
-   border-width: 0;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#wb_Image11
+{
+   vertical-align: top;
+}
+#Image11
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text15 div
+{
+   text-align: left;
+}
+#wb_Image10
+{
+   vertical-align: top;
+}
+#Image10
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape2
+{
+   width: 535px;
+   height: 31px;
+   background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
+   border: 2px #336200 solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+    left: 2.06%;
+   top: 3.23%;
+   width: 97.76%;
+   height: 93.55%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#Shape5
+{
+   width: 293px;
+   height: 31px;
+   background-image: linear-gradient(to bottom, #6CBE00 0%, #336200 100%);
+   border: 2px #336200 solid;
+}
+#Shape5_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.75%;
+   top: 3.23%;
+   width: 95.9%;
+   height: 93.55%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Image12
+{
+   vertical-align: top;
+}
+#Image12
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#PageFooter1
+{
+   background-color: #1E2329;
+   background-image: none;
+   border-radius: 0px;
+   box-sizing: border-box;
 }
