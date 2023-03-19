@@ -19,11 +19,11 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("classicskype/classicskype.html", "Classic Skype", "               ", "");
    this[database_length++] = new SearchPage("classicskype/page1.html", "WWB Template 10", "                   ", "");
    this[database_length++] = new SearchPage("konamusic/konamusic-0LD.htm", "Музыка Конаты", "                                                                                     ", "");
-   this[database_length++] = new SearchPage("konamusic/page4.html", "Untitled Page", "     ", "");
-   this[database_length++] = new SearchPage("konamusic/iframe/index.html", "Untitled Page", "       ", "");
+   this[database_length++] = new SearchPage("konamusic/index.html", "Untitled Page", "Copyright © 2022-2023 by \"KonaloboStudio\"  ·  E-Mail  thesonicrus@gmail.com  Konalobo's Music   ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/index.html", "Untitled Page", "Добро пожаловать  Это раздел с моей  и не только  музыкой  Куда мне зайти  В разделе \"Мои треки\" можно послушать и скачать мою собственную музыку  Другие треки  У нас также доступны треки из Галилео и Pixel Gun 3D Скоро мы добавим больше треков  Расходники для проектов  Вы также можете скачать составляющие моих проектов, если я туда что то опубликую   ", "");
    this[database_length++] = new SearchPage("konamusic/iframe/project.html", "Untitled Page", " ", "");
-   this[database_length++] = new SearchPage("konamusic/iframe/other.html", "Untitled Page", "           ", "");
-   this[database_length++] = new SearchPage("konamusic/iframe/music.html", "Untitled Page", "           ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/other.html", "Untitled Page", "Временно не готово   ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/music.html", "Untitled Page", "Reduce самый первый нормальный трек в FL Studio Mobile  Megolodon довольно неплохой трек в FLM  Pixel Lands не доделан тут я изучал LMMS  OneFall Почему то этот трек напоминает мне какие то песни времен 2012-2014  Airhax Первый трек созданный в ПК версии FL Studio Сторонних  плагинов не использовалось   ", "");
    this[database_length++] = new SearchPage("youtab13/youtab13.html", "Konalobo Studio - YouTab 2013", "                                                                                                   ", "");
    this[database_length++] = new SearchPage("youtab13/about_youtab13.html", "About - YouTab 2013", "                       ", "");
    this[database_length++] = new SearchPage("youtab13/page2.html", "About YouTab 2013", "           ", "");
@@ -67,9 +67,11 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("minerlands/texturepacks/sosiskablocks.html", "Untitled Page", "         ", "");
    this[database_length++] = new SearchPage("minerlands/texturepacks/openglfix.html", "Untitled Page", "         ", "");
    this[database_length++] = new SearchPage("about_gogle_old/about_gogle.htm", "О Gogle", "                     ", "");
-   this[database_length++] = new SearchPage("folder1/page3.html", "Untitled Page", "     ", "");
+   this[database_length++] = new SearchPage("good_links/index.html", "Untitled Page", "     ", "");
    this[database_length++] = new SearchPage("winxp/desktop.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("FOR-SHARARAM-EXTENDED/network-error.html", "Ошибка соединения!", "   ", "");
-   this[database_length++] = new SearchPage("DOWNLOAD-CENTER/ind.html", "Центр загрузок - Gogle", "ЦЕНТР ЗАГРУЗОК  Ваш аккаунт  RU                               Winamp  IrfanView  Total Commander  WinRAR  FL Studio  UTorrent  Opera  QIP  Sony Vegas  Internet Explorer  ImgBurn  Java SE  Windows Media Encoder  TrueSync for Franklin Rex-3   2.95   4.60  10.51  3.40 beta 5  5.0.2  1.1.3  12.18  2005 b8096  4.0  5.5  2.5.8.0  1.5.0.18  7.1    Легендарнейший аудиоплеер эпохи 90-начала00х  Программа для просмотра изображений разных форматов  Файл менеджер для множества версий Windows Работает даже на 95  Архиватор ZIP, RAR, CAB, TAR, 7z, ISO и многих других форматов  Цифровая звуковая рабочая станция  DAW  и секвенсор для написания музыки   Старая версия популярного до сих пор и не очень безопасного в наше время ТОРРЕНТ-клиента  Последняя версия Opera на собственном движке Presto До сих пор умудряется открывать некоторые сайты  Должна работать с серверами KICQ  Известная программа для редактирования видео 4.0 Версия работает на WIN9X но не поддерживает MP4 файлы  Полностью на русском языке  Для записи CD дисков на старых OS  Версия для старых Windows  Запись и конвертация аудио и видео в форматы .wmv, .asf, .wma  ISO файл c программой для синхронизации органайзера Franklin Rex-3 и последующей линейки                              Мы уже давно хотели сделать центр загрузок но тут оказалось что Narod Web был уничтожен Из всего того что уцелело на Web Archive мы сделали свой центр загрузок  © KonaloboStudio 2022-2023 All rights belong to their respective owners   ", "");
+   this[database_length++] = new SearchPage("DOWNLOAD_CENTER/ind.html", "Центр загрузок - Gogle", "                                                                                                                                                       ", "");
+   this[database_length++] = new SearchPage("konatube/index.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("konatube/watch/temp.html", "Untitled Page", " ", "");
    return this;
 }
