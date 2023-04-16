@@ -423,13 +423,13 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 1px #BFBFBF solid;
-   text-align: left;
-   vertical-align: top;
-   width: 482px;
+   text-align: center;
+   vertical-align: middle;
+   width: 170px;
    height: 38px;
    color: #000000;
-   font-family: "Comic Sans MS";
-   font-size: 13px;
+   font-family: "Trebuchet MS";
+   font-size: 19px;
 }
 #Table1 .cell7
 {
@@ -438,11 +438,9 @@ input:focus, textarea:focus, select:focus
    border: 1px #BFBFBF solid;
    text-align: center;
    vertical-align: middle;
-   width: 170px;
-   height: 38px;
-   color: #000000;
-   font-family: "Trebuchet MS";
-   font-size: 19px;
+   width: 120px;
+   height: 48px;
+   font-size: 0;
 }
 #Table1 .cell8
 {
@@ -451,9 +449,11 @@ input:focus, textarea:focus, select:focus
    border: 1px #BFBFBF solid;
    text-align: center;
    vertical-align: middle;
-   width: 120px;
+   width: 170px;
    height: 48px;
-   font-size: 0;
+   color: #000000;
+   font-family: "Trebuchet MS";
+   font-size: 19px;
 }
 #Table1 .cell9
 {
@@ -462,26 +462,13 @@ input:focus, textarea:focus, select:focus
    border: 1px #BFBFBF solid;
    text-align: center;
    vertical-align: middle;
-   width: 170px;
-   height: 48px;
-   color: #000000;
-   font-family: "Trebuchet MS";
-   font-size: 19px;
-}
-#Table1 .cell10
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #BFBFBF solid;
-   text-align: center;
-   vertical-align: middle;
    width: 152px;
    height: 48px;
    color: #000000;
    font-family: "Trebuchet MS";
    font-size: 20px;
 }
-#Table1 .cell11
+#Table1 .cell10
 {
    background-color: transparent;
    background-image: none;
@@ -494,7 +481,7 @@ input:focus, textarea:focus, select:focus
    font-family: "Comic Sans MS";
    font-size: 13px;
 }
-#Table1 .cell12
+#Table1 .cell11
 {
    background-color: transparent;
    background-image: none;
@@ -504,7 +491,7 @@ input:focus, textarea:focus, select:focus
    height: 48px;
    font-size: 0;
 }
-#Table1 .cell13
+#Table1 .cell12
 {
    background-color: transparent;
    background-image: none;
@@ -514,7 +501,7 @@ input:focus, textarea:focus, select:focus
    width: 120px;
    height: 52px;
 }
-#Table1 .cell14
+#Table1 .cell13
 {
    background-color: transparent;
    background-image: none;
@@ -527,7 +514,7 @@ input:focus, textarea:focus, select:focus
    font-family: "Trebuchet MS";
    font-size: 20px;
 }
-#Table1 .cell15
+#Table1 .cell14
 {
    background-color: transparent;
    background-image: none;
@@ -537,7 +524,7 @@ input:focus, textarea:focus, select:focus
    width: 152px;
    height: 52px;
 }
-#Table1 .cell16
+#Table1 .cell15
 {
    background-color: transparent;
    background-image: none;
@@ -550,7 +537,7 @@ input:focus, textarea:focus, select:focus
    font-family: "Comic Sans MS";
    font-size: 13px;
 }
-#Table1 .cell17
+#Table1 .cell16
 {
    background-color: transparent;
    background-image: none;

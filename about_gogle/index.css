@@ -680,6 +680,7 @@ input:focus, textarea:focus, select:focus
    line-height: 0 !important;
    margin: 0;
    padding: 0;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.40);
 }
 #wb_lang_text 
 {
@@ -694,6 +695,53 @@ input:focus, textarea:focus, select:focus
 #wb_lang_text div
 {
    text-align: center;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12 div
+{
+   text-align: center;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text20 div
+{
+   text-align: justify;
+}
+#Button5
+{
+   box-sizing: border-box;
+   line-height: 37px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
 }
 #PageFooter1
 {
