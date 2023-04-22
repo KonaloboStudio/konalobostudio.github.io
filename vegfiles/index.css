@@ -63,7 +63,7 @@ input:focus, textarea:focus, select:focus
 #Shape4
 {
    width: 329px;
-   height: 1712px;
+   height: 1945px;
    background-color: #26292E;
    background-image: none;
    border: 0px #B9BDC0 solid;
@@ -77,9 +77,9 @@ input:focus, textarea:focus, select:focus
    justify-content: flex-start;
    flex-direction: column;
     left: 0.3%;
-   top: 0.06%;
+   top: 0.05%;
    width: 99.39%;
-   height: 99.88%;
+   height: 99.9%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: left;
@@ -140,7 +140,7 @@ input:focus, textarea:focus, select:focus
 #Shape3
 {
    width: 571px;
-   height: 1712px;
+   height: 1945px;
    background-color: #2F3237;
    background-image: none;
    border: 0px #A9A9A9 solid;
@@ -155,9 +155,9 @@ input:focus, textarea:focus, select:focus
    justify-content: flex-start;
    flex-direction: column;
     left: 0.18%;
-   top: 0.06%;
+   top: 0.05%;
    width: 99.65%;
-   height: 99.88%;
+   height: 99.9%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: left;
@@ -193,8 +193,8 @@ input:focus, textarea:focus, select:focus
    color: #CED1D6;
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 15px;
-   line-height: 18.5px;
+   font-size: 13px;
+   line-height: 17.5px;
 }
 #wb_Text9 p, #wb_Text9 ul
 {
@@ -225,19 +225,6 @@ input:focus, textarea:focus, select:focus
    border: 2px solid #000000;
    border-radius: 3px;
    padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image4
-{
-   vertical-align: top;
-}
-#Image4
-{
-   border-width: 0;
    margin: 0;
    left: 0;
    top: 0;
@@ -284,7 +271,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Text7
 {
-   color: #CED1D6;
+   color: #DCDCDC;
    font-family: "Trebuchet MS";
    font-weight: normal;
    font-size: 15px;
@@ -581,6 +568,35 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
 }
 #Image12
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
 {
    border: 2px solid #000000;
    border-radius: 3px;
