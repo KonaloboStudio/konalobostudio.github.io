@@ -1,0 +1,157 @@
+div#container
+{
+   width: 870px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#wb_Text1 
+{
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   -webkit-animation: animate-fade-in-down 750ms cubic-bezier(0.215, 0.61, 0.355, 1) 0ms 1 normal both;
+   animation: animate-fade-in-down 750ms cubic-bezier(0.215, 0.61, 0.355, 1) 0ms 1 normal both;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Heading4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading4
+{
+   color: #696969;
+   font-family: Play;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Heading5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading5
+{
+   color: #4F4F4F;
+   font-family: Play;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #4F4F4F;
+   font-family: Play;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}

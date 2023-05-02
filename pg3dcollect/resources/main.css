@@ -1,0 +1,344 @@
+div#container
+{
+   width: 870px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#wb_Text1 
+{
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   -webkit-animation: animate-fade-in-down 750ms cubic-bezier(0.215, 0.61, 0.355, 1) 0ms 1 normal both;
+   animation: animate-fade-in-down 750ms cubic-bezier(0.215, 0.61, 0.355, 1) 0ms 1 normal both;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Picture1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Picture2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Picture3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#Picture4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Picture5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   object-fit: cover;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#Picture6
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#Picture7
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#Picture8
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 250ms 1 normal both;
+   animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 250ms 1 normal both;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms 1 normal both;
+   animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms 1 normal both;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in 1000ms linear 1100ms 1 normal both;
+   animation: animate-fade-in 1000ms linear 1100ms 1 normal both;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in 1000ms linear 1250ms 1 normal both;
+   animation: animate-fade-in 1000ms linear 1250ms 1 normal both;
+}
+#Layer7
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in 1000ms linear 1400ms 1 normal both;
+   animation: animate-fade-in 1000ms linear 1400ms 1 normal both;
+}
+#Layer8
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in 1000ms linear 1550ms 1 normal both;
+   animation: animate-fade-in 1000ms linear 1550ms 1 normal both;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 550ms 1 normal both;
+   animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 550ms 1 normal both;
+}
+#Layer4
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   -webkit-animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 750ms 1 normal both;
+   animation: animate-fade-in-left 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 750ms 1 normal both;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   -webkit-animation: animate-fade-in 1000ms linear 1000ms 1 normal both;
+   animation: animate-fade-in 1000ms linear 1000ms 1 normal both;
+}
+#wb_Text11 div
+{
+   text-align: left;
+}
