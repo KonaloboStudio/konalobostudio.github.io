@@ -107,21 +107,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#wb_blog_button
-{
-   vertical-align: top;
-}
-#blog_button
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #inform
 {
    background-image: linear-gradient(to top, #FAE692 0%, #FEEFAF 100%);
