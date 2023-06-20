@@ -654,6 +654,17 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
+#Shape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Shape3
+{
+   margin: 0;
+   -webkit-animation: animate-fade-out 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-out 1000ms linear 0ms 1 normal both;
+}
 #PageFooter1
 {
    background-image: linear-gradient(to top, #002980 0%, rgba(0,41,128,0.75) 40%, rgba(255,255,255,0.00) 100%);

@@ -58,6 +58,21 @@
    0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
    100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
 }
+@-webkit-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@-moz-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
 @-webkit-keyframes focus-in
 {
    0% { filter: blur(20px); opacity: 0.0;  }
@@ -168,4 +183,14 @@ h6, .h6
    text-decoration: none;
    color: #FFFFFF;
    background-color: #DC143C;
+}
+.style2
+{
+   text-decoration: none;
+   background-color: transparent;
+}
+.style31213
+{
+   text-decoration: none;
+   background-color: transparent;
 }

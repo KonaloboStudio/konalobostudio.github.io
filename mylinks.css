@@ -46,6 +46,12 @@ input:focus, textarea:focus, select:focus
    box-shadow: 0px 5px 10px rgba(0,0,0,0.20);
    box-sizing: border-box;
 }
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
 #Button1
 {
    box-sizing: border-box;
@@ -270,12 +276,6 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
 }
 #Layer1
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   border-radius: 0px;
-}
-#Layer2
 {
    background-color: #FBFBFB;
    background-image: none;
@@ -802,6 +802,26 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border-radius: 0px;
    box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+   margin: 0;
+   text-align: left;
 }
 #PageFooter1
 {
