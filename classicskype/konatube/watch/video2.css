@@ -1,0 +1,433 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('http://s.ytimg.com/yt/img/refresh/body_noise-vfl_60-qt.png');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#PageHeader1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #4F4F4F;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #333333;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+   text-align: left;
+}
+#wb_VideoPlayer1
+{
+   --plyr-color-main: #1C62B9;
+   --plyr-video-control-color: #FFFFFF;
+   --plyr-video-control-color-hover: #FFFFFF;
+   --plyr-range-thumb-background: #FFFFFF;
+   --plyr-video-progress-buffered-background: #FFFFFF;
+   --plyr-range-track-height: 4px;
+   --plyr-video-controls-background: linear-gradient(rgba(0,0,0,0.00), rgba(0,0,0,0.75));
+   --plyr-control-spacing: 7px;
+   --plyr-control-icon-size: 15px;
+   --plyr-range-thumb-height: 11px;
+   --plyr-font-family: Arial;
+   --plyr-font-size-small: 13px;
+}
+#Layer4
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
+#wb_Form1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 0px;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer2
+{
+   background-image: linear-gradient(to top, #D3D3D3 0%, #F5F5F5 100%);
+   border: 1px solid #A9A9A9;
+   border-radius: 0px;
+}
+#ClipArt1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Layer6
+{
+   background-image: linear-gradient(to bottom, #F5F5F5 0%, #D3D3D3 100%);
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.60);
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#wb_Image9
+{
+   vertical-align: top;
+}
+#Image9
+{
+   border: 0px solid #000000;
+   border-radius: 4px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Button3
+{
+   border: 0px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Layer11
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#Line1
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#Layer7
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F5F5F5 100%);
+   border-radius: 4px;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#Layer8
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Layer9
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F5F5F5 100%);
+   border-radius: 4px;
+}
+#Line2
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text4 div
+{
+   text-align: right;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12 div
+{
+   text-align: center;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#PageFooter1
+{
+   background-color: rgba(169,169,169,0.29);
+   background-image: none;
+   border-radius: 0px;
+   box-sizing: border-box;
+}
