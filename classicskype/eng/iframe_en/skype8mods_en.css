@@ -64,38 +64,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
-#Shape2
-{
-   top: 0px;
-   width: 427px;
-   height: 66px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 50px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape2:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape2_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 5.85%;
-   top: 39.39%;
-   width: 87.82%;
-   height: 21.21%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
 #Layer2
 {
    background-color: #01BBFF;
@@ -234,38 +202,6 @@ input:focus, textarea:focus, select:focus
 {
    display: block;
 }
-#Shape1
-{
-   top: 0px;
-   width: 427px;
-   height: 66px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 50px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape1:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape1_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 5.85%;
-   top: 39.39%;
-   width: 87.82%;
-   height: 21.21%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
 #PhotoGallery2
 {
    box-sizing: border-box;
@@ -390,38 +326,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
-#Shape3
-{
-   top: 0px;
-   width: 427px;
-   height: 66px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 50px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape3:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape3_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 5.85%;
-   top: 39.39%;
-   width: 87.82%;
-   height: 21.21%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
 #Layer4
 {
    background-color: #01BBFF;
@@ -454,38 +358,6 @@ input:focus, textarea:focus, select:focus
    line-height: 0 !important;
    margin: 0;
    padding: 0;
-}
-#Shape4
-{
-   top: 0px;
-   width: 427px;
-   height: 66px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 50px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape4:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape4_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 5.85%;
-   top: 39.39%;
-   width: 87.82%;
-   height: 21.21%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
 }
 #PhotoGallery3
 {
@@ -674,4 +546,128 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border-radius: 0px;
+}
+#Shape2
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape2:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape1
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape1:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape3
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape3:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape3_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape4
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape4:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape4_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
 }

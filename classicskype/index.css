@@ -45,11 +45,11 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    box-sizing: border-box;
 }
-#wb_Image1
+#wb_Image2
 {
    vertical-align: top;
 }
-#Image1
+#Image2
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -229,21 +229,6 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    word-wrap: break-word;
 }
-#wb_Image2
-{
-   vertical-align: top;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -257,21 +242,6 @@ input:focus, textarea:focus, select:focus
 #wb_Text2 div
 {
    text-align: left;
-}
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #Button1
 {
@@ -512,20 +482,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text3 div
-{
-   text-align: left;
-}
 #Button11
 {
    box-sizing: border-box;
@@ -576,9 +532,18 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: right;
 }
-#wb_Text4 div
+#wb_Text4
 {
-   text-align: right;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
 }
 #Button13
 {
@@ -634,10 +599,53 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
 #PageFooter1
 {
-   background-color: #0094CB;
-   background-image: none;
+   background-image: linear-gradient(to bottom, #0094CB 0%, #0094CB 78%, #FFFFFF 78%, #FFFFFF 100%);
    border-radius: 0px;
    box-sizing: border-box;
 }
