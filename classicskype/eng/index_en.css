@@ -645,7 +645,7 @@ input:focus, textarea:focus, select:focus
 }
 #PageFooter1
 {
-   background-image: linear-gradient(to bottom, #0094CB 0%, #0094CB 78%, #FFFFFF 78%, #FFFFFF 100%);
+   background-image: linear-gradient(to bottom, #0094CB 0%, #0094CB 78%, #FFFFFF 79%, #FFFFFF 100%);
    border-radius: 0px;
    box-sizing: border-box;
 }

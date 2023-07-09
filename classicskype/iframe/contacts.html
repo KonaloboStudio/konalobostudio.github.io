@@ -210,22 +210,49 @@ document.addEventListener('DOMContentLoaded', function(event)
    cmDrawFromText('MenuBar7', 'hbr', cmMenuBar7, 'MenuBar7');
 });
 </script>
+<script>
+var cmMenuBar8 =
+{
+   mainFolderLeft: '',
+   mainFolderRight: '',
+   mainItemLeft: '',
+   mainItemRight: '',
+   folderLeft: '',
+   folderRight: '',
+   itemLeft: '',
+   itemRight: '',
+   mainSpacing: 0,
+   subSpacing: 0,
+   clickOpen: 3,
+   delay: 100,
+   offsetHMainAdjust: [0, 0],
+   offsetSubAdjust: [0, 0]
+};
+var cmMenuBar8HSplit = [_cmNoClick, '<td class="MenuBar8MenuSplitLeft"><div></div></td>' +
+                                    '<td class="MenuBar8MenuSplitText"><div></div></td>' +
+                                    '<td class="MenuBar8MenuSplitRight"><div></div></td>'];
+var cmMenuBar8MainVSplit = [_cmNoClick, '<div><table width="10" cellspacing="0"><tr><td class="MenuBar8HorizontalSplit">|</td></tr></table></div>'];
+var cmMenuBar8MainHSplit = [_cmNoClick, '<td colspan="3" class="MenuBar8MainSplitText"><div></div></td>'];
+cmMenuBar8.effect = new CMFadingEffect(30, 50);
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   cmDrawFromText('MenuBar8', 'hbr', cmMenuBar8, 'MenuBar8');
+});
+</script>
 </head>
 <body>
-<div id="wb_Text1" style="position:absolute;left:47px;top:33px;width:292px;height:57px;z-index:28;">
+<div id="wb_Text1" style="position:absolute;left:47px;top:33px;width:292px;height:57px;z-index:32;">
 <span style="color:#007DC5;font-family:Arial;font-size:17px;"><strong>Здесь вы можете найти пользователя по интересам или добавить свой профиль сюда</strong></span></div>
-<div id="wb_Shape3" style="position:absolute;left:787px;top:27px;width:147px;height:68px;z-index:29;">
+<div id="wb_Shape3" style="position:absolute;left:787px;top:27px;width:147px;height:68px;z-index:33;">
 <a href="https://forms.gle/YksCWDhESbZV4Ue37" target="_blank"><div id="Shape3"><div id="Shape3_text"><div><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Обновить свой профиль</strong></span></div></div></div></a></div>
-<div id="wb_Shape1" style="position:absolute;left:563px;top:27px;width:180px;height:68px;z-index:30;">
+<div id="wb_Shape1" style="position:absolute;left:563px;top:27px;width:180px;height:68px;z-index:34;">
 <a href="https://forms.gle/UfUu7BNx5s9K7VBE8" target="_blank"><div id="Shape1"><div id="Shape1_text"><div><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Добавить свой профиль в список</strong></span></div></div></div></a></div>
-<div id="wb_Text24" style="position:absolute;left:743px;top:52px;width:44px;height:19px;text-align:center;z-index:31;">
+<div id="wb_Text24" style="position:absolute;left:743px;top:52px;width:44px;height:19px;text-align:center;z-index:35;">
 <span style="color:#007DC5;font-family:Arial;font-size:17px;"><strong>или</strong></span></div>
-<div id="Layer8" style="position:absolute;text-align:left;left:0px;top:704px;width:935px;height:64px;z-index:32;">
-</div>
-<a id="Button1" href="https://chrisonwix.wixsite.com/skypefinder" target="_blank" style="position:absolute;left:15px;top:101px;width:919px;height:27px;z-index:33;">Спасибо Chris S за идею и примерный макет страницы. Можете посетить его сайт Skype Finder</a>
-<div id="wb_Text23" style="position:absolute;left:13px;top:326px;width:921px;height:24px;z-index:34;">
+<a id="Button1" href="https://chrisonwix.wixsite.com/skypefinder" target="_blank" style="position:absolute;left:15px;top:101px;width:919px;height:27px;z-index:36;">Спасибо Chris S за идею и примерный макет страницы. Можете посетить его сайт Skype Finder</a>
+<div id="wb_Text23" style="position:absolute;left:13px;top:326px;width:921px;height:24px;z-index:37;">
 <span style="color:#007DC5;font-family:Arial;font-size:21px;"><strong>Профили других пользователей</strong></span></div>
-<div id="Layer1" style="position:absolute;text-align:left;left:10px;top:144px;width:300px;height:160px;z-index:35;">
+<div id="Layer1" style="position:absolute;text-align:left;left:10px;top:144px;width:300px;height:160px;z-index:38;">
 <div id="wb_Image1" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:0;">
 <img src="images/live gs54390.jpg" id="Image1" alt="" width="64" height="64"></div>
 <div id="wb_Image2" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:1;">
@@ -253,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer2" style="position:absolute;text-align:left;left:323px;top:144px;width:300px;height:160px;z-index:36;">
+<div id="Layer2" style="position:absolute;text-align:left;left:323px;top:144px;width:300px;height:160px;z-index:39;">
 <div id="wb_Image3" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:4;">
 <img src="images/live .cid3.jpg" id="Image3" alt="" width="64" height="64"></div>
 <div id="wb_Image4" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:5;">
@@ -281,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:323px;top:370px;width:300px;height:160px;z-index:37;">
+<div id="Layer4" style="position:absolute;text-align:left;left:323px;top:370px;width:300px;height:160px;z-index:40;">
 <div id="wb_Image7" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:8;">
 <img src="images/live .cid6.png" id="Image7" alt="" width="64" height="64"></div>
 <div id="wb_Text13" style="position:absolute;left:13px;top:91px;width:271px;height:34px;z-index:9;">
@@ -309,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer5" style="position:absolute;text-align:left;left:10px;top:370px;width:300px;height:160px;z-index:38;">
+<div id="Layer5" style="position:absolute;text-align:left;left:10px;top:370px;width:300px;height:160px;z-index:41;">
 <div id="wb_Image9" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:12;">
 <img src="images/live .cid.png" id="Image9" alt="" width="64" height="64"></div>
 <div id="wb_Image10" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:13;">
@@ -337,13 +364,13 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer6" style="position:absolute;text-align:left;left:634px;top:370px;width:300px;height:160px;z-index:39;">
+<div id="Layer6" style="position:absolute;text-align:left;left:634px;top:370px;width:300px;height:160px;z-index:42;">
 <div id="wb_Image11" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:16;">
 <img src="images/live .cid2.jpg" id="Image11" alt="" width="64" height="64"></div>
 <div id="wb_Text19" style="position:absolute;left:13px;top:91px;width:271px;height:17px;z-index:17;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;">Skype Finder Website Creator</span></div>
 <div id="wb_Image15" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:18;">
-<img src="images/qpc7t8d7ci.jpg" id="Image15" alt="" width="32" height="19"></div>
+<img src="images/en-uk_flag.png" id="Image15" alt="" width="32" height="18"></div>
 <div id="wb_MenuBar5" style="position:absolute;left:94px;top:13px;width:190px;height:44px;z-index:19;">
 <div id="MenuBar5">
 <ul style="display:none;">
@@ -365,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer3" style="position:absolute;text-align:left;left:10px;top:544px;width:300px;height:160px;z-index:40;">
+<div id="Layer3" style="position:absolute;text-align:left;left:10px;top:544px;width:300px;height:160px;z-index:43;">
 <div id="wb_Image5" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:20;">
 <img src="images/live .cid5.jpg" id="Image5" alt="" width="64" height="64"></div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:91px;width:271px;height:34px;z-index:21;">
@@ -393,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer7" style="position:absolute;text-align:left;left:323px;top:544px;width:300px;height:160px;z-index:41;">
+<div id="Layer7" style="position:absolute;text-align:left;left:323px;top:544px;width:300px;height:160px;z-index:44;">
 <div id="wb_Image8" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:24;">
 <img src="images/live .cid4.jpg" id="Image8" alt="" width="64" height="64"></div>
 <div id="wb_Text22" style="position:absolute;left:13px;top:91px;width:271px;height:17px;z-index:25;">
@@ -421,7 +448,39 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="wb_Image12" style="position:absolute;left:651px;top:139px;width:267px;height:170px;z-index:42;">
+<div id="wb_Image12" style="position:absolute;left:651px;top:139px;width:267px;height:170px;z-index:45;">
 <img src="images/howtomake_ru.png" id="Image12" alt="" width="267" height="170"></div>
+<div id="Layer9" style="position:absolute;text-align:left;left:636px;top:544px;width:300px;height:160px;z-index:46;">
+<div id="wb_Image16" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:28;">
+<img src="images/live .cid7.jpg" id="Image16" alt="" width="64" height="64"></div>
+<div id="wb_Text2" style="position:absolute;left:13px;top:85px;width:271px;height:68px;z-index:29;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;">I like the old Skype 6 and 7, the games I like most are Minecraft and Roblox, sometimes I make games on Roblox Studio</span></div>
+<div id="wb_Image17" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:30;">
+<img src="images/italy_flag.png" id="Image17" alt="" width="32" height="18"></div>
+<div id="wb_MenuBar8" style="position:absolute;left:94px;top:13px;width:190px;height:44px;z-index:31;">
+<div id="MenuBar8">
+<ul style="display:none;">
+   <li><span></span><span>dip&nbsp;skibidi</span>
+      <ul>
+         <li><span></span><a href="skype:live:antonio.aurola?chat" target="_self" title="Написать">Написать</a>
+</li>
+         <li><span></span><a href="skype:live:antonio.aurola?call" target="_self" title="Аудио звонок">Аудио&nbsp;звонок</a>
+</li>
+         <li><span></span><a href="skype:live:antonio.aurola?call&video=true" target="_self" title="Видео звонок">Видео&nbsp;звонок</a>
+</li>
+         <li><span></span><a href="skype:live:antonio.aurola?add" target="_self" title="Добавить контакт">Добавить&nbsp;контакт</a>
+</li>
+         <li><span></span><a href="skype:live:antonio.aurola?userinfo" target="_self" title="Профиль">Профиль</a>
+</li>
+      </ul>
+   </li>
+</ul>
+</div>
+</div>
+</div>
+<div id="wb_JavaScript1" style="position:absolute;left:12px;top:722px;width:924px;height:46px;z-index:47;">
+<script>
+document.write("<div style=\"color:#00568A;font-size:16px;font-family:Arial;font-weight:normal;font-style:normal;text-align:left;text-decoration:none\">Обновление списка: "+document.lastModified+"<\/div>");
+</script>    </div>
 </body>
 </html>
