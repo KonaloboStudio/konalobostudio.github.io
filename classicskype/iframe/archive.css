@@ -1121,3 +1121,22 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border-radius: 0px;
 }
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#Shape17
+{
+   border-width: 0;
+   vertical-align: top;
+}
