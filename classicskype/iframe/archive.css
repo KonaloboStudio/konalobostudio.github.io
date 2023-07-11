@@ -1137,6 +1137,26 @@ input:focus, textarea:focus, select:focus
 }
 #Shape17
 {
-   border-width: 0;
-   vertical-align: top;
+   width: 533px;
+   height: 21px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #0963AD solid;
+}
+#Shape17_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.19%;
+   top: 4.76%;
+   width: 99.62%;
+   height: 90.48%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
 }
