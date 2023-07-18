@@ -49,13 +49,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#MediaPlayer4
-{
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #MediaPlayer13
 {
    left: 0;
@@ -76,20 +69,6 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text3 div
-{
-   text-align: justify;
 }
 #wb_Text1 
 {
@@ -218,78 +197,50 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#wb_Image1
+#Layer1
 {
-   vertical-align: top;
+   background-image: linear-gradient(to top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+   border-radius: 5px;
 }
-#Image1
+#MediaPlayer2
 {
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
    height: 100%;
 }
-#wb_Image2
+#wb_Text6 
 {
-   vertical-align: top;
-}
-#Image2
-{
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
    margin: 0;
+   text-align: justify;
+}
+#wb_Text6 div
+{
+   text-align: justify;
+}
+#MediaPlayer4
+{
    left: 0;
    top: 0;
    width: 100%;
    height: 100%;
 }
-#wb_Image3
+#wb_Text3 
 {
-   vertical-align: top;
-}
-#Image3
-{
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
    margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   text-align: justify;
 }
-#wb_Image4
+#wb_Text3 div
 {
-   vertical-align: top;
-}
-#Image4
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image5
-{
-   vertical-align: top;
-}
-#Image5
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   text-align: justify;
 }

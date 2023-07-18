@@ -5,14 +5,20 @@ div#container
    margin: 0 auto 0 auto;
    text-align: left;
 }
+body:before
+{
+   content: "";
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   background-image: linear-gradient(to top, #002564 0%, #009FD5 100%);
+}
 body
 {
-   background-color: #FFFFFF;
-   background-image: url('images/abstract-1780171.png');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: #002564;
    color: #000000;
    font-family: Arial;
    font-weight: normal;

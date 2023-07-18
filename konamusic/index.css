@@ -66,6 +66,7 @@ input:focus, textarea:focus, select:focus
    height: 720px;
    background-image: linear-gradient(315deg, #2D2D2D 0%, #4F4F4F 100%);
    border: 0px #A9A9A9 solid;
+   box-shadow: 0px 0px 9px rgba(0,0,0,0.78);
 }
 #main_text
 {
