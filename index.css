@@ -3173,7 +3173,8 @@ input:focus, textarea:focus, select:focus
 }
 #sett_pole_new
 {
-   background-image: linear-gradient(to top, #F5F5F5 0%, #FFFFFF 100%);
+   background-color: rgba(0,159,213,0.76);
+   background-image: none;
    border: 2px solid #808080;
    border-radius: 0px;
 }
@@ -3473,4 +3474,99 @@ input:focus, textarea:focus, select:focus
 #wb_Text13 div
 {
    text-align: center;
+}
+#Button1
+{
+   box-sizing: border-box;
+   line-height: 24px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button14
+{
+   box-sizing: border-box;
+   line-height: 24px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button15
+{
+   box-sizing: border-box;
+   line-height: 24px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button16
+{
+   box-sizing: border-box;
+   line-height: 24px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button17
+{
+   box-sizing: border-box;
+   line-height: 24px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #396AA6;
+   border-radius: 2px;
+   background-image: linear-gradient(to top, #3F76B7 0%, #6891E7 100%);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
 }
