@@ -268,20 +268,49 @@ document.addEventListener('DOMContentLoaded', function(event)
    cmDrawFromText('MenuBar9', 'hbr', cmMenuBar9, 'MenuBar9');
 });
 </script>
+<script>
+var cmMenuBar10 =
+{
+   mainFolderLeft: '',
+   mainFolderRight: '',
+   mainItemLeft: '',
+   mainItemRight: '',
+   folderLeft: '',
+   folderRight: '',
+   itemLeft: '',
+   itemRight: '',
+   mainSpacing: 0,
+   subSpacing: 0,
+   clickOpen: 3,
+   delay: 100,
+   offsetHMainAdjust: [0, 0],
+   offsetSubAdjust: [0, 0]
+};
+var cmMenuBar10HSplit = [_cmNoClick, '<td class="MenuBar10MenuSplitLeft"><div></div></td>' +
+                                    '<td class="MenuBar10MenuSplitText"><div></div></td>' +
+                                    '<td class="MenuBar10MenuSplitRight"><div></div></td>'];
+var cmMenuBar10MainVSplit = [_cmNoClick, '<div><table width="10" cellspacing="0"><tr><td class="MenuBar10HorizontalSplit">|</td></tr></table></div>'];
+var cmMenuBar10MainHSplit = [_cmNoClick, '<td colspan="3" class="MenuBar10MainSplitText"><div></div></td>'];
+cmMenuBar10.effect = new CMFadingEffect(30, 50);
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   cmDrawFromText('MenuBar10', 'hbr', cmMenuBar10, 'MenuBar10');
+});
+</script>
 </head>
 <body>
-<div id="wb_Text1" style="position:absolute;left:47px;top:33px;width:292px;height:57px;z-index:36;">
+<div id="wb_Text1" style="position:absolute;left:47px;top:33px;width:292px;height:57px;z-index:40;">
 <span style="color:#007DC5;font-family:Arial;font-size:17px;"><strong>Здесь вы можете найти пользователя по интересам или добавить свой профиль сюда</strong></span></div>
-<div id="wb_Shape3" style="position:absolute;left:787px;top:27px;width:147px;height:68px;z-index:37;">
+<div id="wb_Shape3" style="position:absolute;left:787px;top:27px;width:147px;height:68px;z-index:41;">
 <a href="https://forms.gle/YksCWDhESbZV4Ue37" target="_blank"><div id="Shape3"><div id="Shape3_text"><div><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Обновить свой профиль</strong></span></div></div></div></a></div>
-<div id="wb_Shape1" style="position:absolute;left:563px;top:27px;width:180px;height:68px;z-index:38;">
+<div id="wb_Shape1" style="position:absolute;left:563px;top:27px;width:180px;height:68px;z-index:42;">
 <a href="https://forms.gle/UfUu7BNx5s9K7VBE8" target="_blank"><div id="Shape1"><div id="Shape1_text"><div><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Добавить свой профиль в список</strong></span></div></div></div></a></div>
-<div id="wb_Text24" style="position:absolute;left:743px;top:52px;width:44px;height:19px;text-align:center;z-index:39;">
+<div id="wb_Text24" style="position:absolute;left:743px;top:52px;width:44px;height:19px;text-align:center;z-index:43;">
 <span style="color:#007DC5;font-family:Arial;font-size:17px;"><strong>или</strong></span></div>
-<a id="Button1" href="https://chrisonwix.wixsite.com/skypefinder" target="_blank" style="position:absolute;left:15px;top:101px;width:919px;height:27px;z-index:40;">Спасибо Chris S за идею и примерный макет страницы. Можете посетить его сайт Skype Finder</a>
-<div id="wb_Text23" style="position:absolute;left:13px;top:326px;width:921px;height:26px;z-index:41;">
-<span style="color:#007DC5;font-family:'Arial CYR';font-size:21px;"><strong>Профили других пользователей</strong></span></div>
-<div id="Layer1" style="position:absolute;text-align:left;left:10px;top:144px;width:300px;height:160px;z-index:42;">
+<a id="Button1" href="https://chrisonwix.wixsite.com/skypefinder" target="_blank" style="position:absolute;left:15px;top:101px;width:919px;height:27px;z-index:44;">Спасибо Chris S за идею и примерный макет страницы. Можете посетить его сайт Skype Finder</a>
+<div id="wb_Text23" style="position:absolute;left:15px;top:588px;width:921px;height:24px;z-index:45;">
+<span style="color:#007DC5;font-family:Arial;font-size:21px;"><strong>Профили других пользователей</strong></span></div>
+<div id="Layer1" style="position:absolute;text-align:left;left:12px;top:406px;width:300px;height:160px;z-index:46;">
 <div id="wb_Image1" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:0;">
 <img src="images/live gs54390.jpg" id="Image1" alt="" width="64" height="64"></div>
 <div id="wb_Image2" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:1;">
@@ -309,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer2" style="position:absolute;text-align:left;left:323px;top:144px;width:300px;height:160px;z-index:43;">
+<div id="Layer2" style="position:absolute;text-align:left;left:325px;top:406px;width:300px;height:160px;z-index:47;">
 <div id="wb_Image3" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:4;">
 <img src="images/live .cid3.jpg" id="Image3" alt="" width="64" height="64"></div>
 <div id="wb_Image4" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:5;">
@@ -337,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:323px;top:370px;width:300px;height:160px;z-index:44;">
+<div id="Layer4" style="position:absolute;text-align:left;left:325px;top:632px;width:300px;height:160px;z-index:48;">
 <div id="wb_Image7" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:8;">
 <img src="images/live .cid6.png" id="Image7" alt="" width="64" height="64"></div>
 <div id="wb_Text13" style="position:absolute;left:13px;top:91px;width:271px;height:34px;z-index:9;">
@@ -365,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer5" style="position:absolute;text-align:left;left:10px;top:370px;width:300px;height:160px;z-index:45;">
+<div id="Layer5" style="position:absolute;text-align:left;left:12px;top:632px;width:300px;height:160px;z-index:49;">
 <div id="wb_Image9" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:12;">
 <img src="images/live .cid.png" id="Image9" alt="" width="64" height="64"></div>
 <div id="wb_Image10" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:13;">
@@ -393,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer6" style="position:absolute;text-align:left;left:634px;top:370px;width:300px;height:160px;z-index:46;">
+<div id="Layer6" style="position:absolute;text-align:left;left:636px;top:632px;width:300px;height:160px;z-index:50;">
 <div id="wb_Image11" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:16;">
 <img src="images/live .cid2.jpg" id="Image11" alt="" width="64" height="64"></div>
 <div id="wb_Text19" style="position:absolute;left:13px;top:91px;width:271px;height:17px;z-index:17;">
@@ -421,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer3" style="position:absolute;text-align:left;left:10px;top:544px;width:300px;height:160px;z-index:47;">
+<div id="Layer3" style="position:absolute;text-align:left;left:12px;top:806px;width:300px;height:160px;z-index:51;">
 <div id="wb_Image5" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:20;">
 <img src="images/live .cid5.jpg" id="Image5" alt="" width="64" height="64"></div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:91px;width:271px;height:34px;z-index:21;">
@@ -449,7 +478,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="Layer7" style="position:absolute;text-align:left;left:323px;top:544px;width:300px;height:160px;z-index:48;">
+<div id="Layer7" style="position:absolute;text-align:left;left:325px;top:806px;width:300px;height:160px;z-index:52;">
 <div id="wb_Image8" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:24;">
 <img src="images/live .cid4.jpg" id="Image8" alt="" width="64" height="64"></div>
 <div id="wb_Text22" style="position:absolute;left:13px;top:91px;width:271px;height:17px;z-index:25;">
@@ -477,9 +506,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="wb_Image12" style="position:absolute;left:651px;top:139px;width:267px;height:170px;z-index:49;">
-<img src="images/howtomake_ru.png" id="Image12" alt="" width="267" height="170"></div>
-<div id="Layer9" style="position:absolute;text-align:left;left:636px;top:544px;width:300px;height:160px;z-index:50;">
+<div id="Layer9" style="position:absolute;text-align:left;left:638px;top:806px;width:300px;height:160px;z-index:53;">
 <div id="wb_Image16" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:28;">
 <img src="images/live .cid7.jpg" id="Image16" alt="" width="64" height="64"></div>
 <div id="wb_Text2" style="position:absolute;left:13px;top:85px;width:271px;height:68px;z-index:29;">
@@ -507,11 +534,11 @@ document.addEventListener('DOMContentLoaded', function(event)
 </div>
 </div>
 </div>
-<div id="wb_JavaScript1" style="position:absolute;left:9px;top:880px;width:924px;height:46px;z-index:51;">
+<div id="wb_JavaScript1" style="position:absolute;left:11px;top:1142px;width:924px;height:46px;z-index:54;">
 <script>
 document.write("<div style=\"color:#00568A;font-size:16px;font-family:Arial;font-weight:normal;font-style:normal;text-align:left;text-decoration:none\">Обновление списка: "+document.lastModified+"<\/div>");
 </script>    </div>
-<div id="Layer10" style="position:absolute;text-align:left;left:10px;top:720px;width:300px;height:160px;z-index:52;">
+<div id="Layer10" style="position:absolute;text-align:left;left:12px;top:982px;width:300px;height:160px;z-index:55;">
 <div id="wb_Image18" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:32;">
 <img src="images/live_.cid8.jpg" id="Image18" alt="" width="64" height="64"></div>
 <div id="wb_Text3" style="position:absolute;left:13px;top:85px;width:271px;height:33px;z-index:33;">
@@ -539,5 +566,37 @@ document.write("<div style=\"color:#00568A;font-size:16px;font-family:Arial;font
 </div>
 </div>
 </div>
+<div id="Layer8" style="position:absolute;text-align:left;left:325px;top:982px;width:300px;height:160px;z-index:56;">
+<div id="wb_Image20" style="position:absolute;left:13px;top:13px;width:64px;height:64px;z-index:36;">
+<img src="images/live_.cid9.jpg" id="Image20" alt="" width="64" height="64"></div>
+<div id="wb_Text5" style="position:absolute;left:13px;top:85px;width:271px;height:33px;z-index:37;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;">i luv gaming and obsessed with law of talos!!!</span></div>
+<div id="wb_Image21" style="position:absolute;left:94px;top:57px;width:32px;height:18px;z-index:38;">
+<img src="images/pl_flag.png" id="Image21" alt="" width="32" height="18"></div>
+<div id="wb_MenuBar10" style="position:absolute;left:94px;top:13px;width:206px;height:44px;z-index:39;">
+<div id="MenuBar10">
+<ul style="display:none;">
+   <li><span></span><span>▂▅█&nbsp;愚蠢的樂趣&nbsp;█▅▂</span>
+      <ul>
+         <li><span></span><a href="skype:live:.cid.4006f9acc7b62a22?chat" target="_self" title="Написать">Написать</a>
+</li>
+         <li><span></span><a href="skype:live:.cid.4006f9acc7b62a22?call" target="_self" title="Аудио звонок">Аудио&nbsp;звонок</a>
+</li>
+         <li><span></span><a href="skype:live:.cid.4006f9acc7b62a22?call&video=true" target="_self" title="Видео звонок">Видео&nbsp;звонок</a>
+</li>
+         <li><span></span><a href="skype:live:.cid.4006f9acc7b62a22?add" target="_self" title="Добавить контакт">Добавить&nbsp;контакт</a>
+</li>
+         <li><span></span><a href="skype:live:.cid.4006f9acc7b62a22?userinfo" target="_self" title="Профиль">Профиль</a>
+</li>
+      </ul>
+   </li>
+</ul>
+</div>
+</div>
+</div>
+<div id="wb_Text6" style="position:absolute;left:11px;top:365px;width:921px;height:24px;z-index:57;">
+<span style="color:#007DC5;font-family:Arial;font-size:21px;"><strong>Профили администраторов</strong></span></div>
+<div id="wb_Image12" style="position:absolute;left:176px;top:128px;width:591px;height:230px;z-index:58;">
+<img src="images/rucontact_tutor.png" id="Image12" alt="" width="591" height="230"></div>
 </body>
 </html>
