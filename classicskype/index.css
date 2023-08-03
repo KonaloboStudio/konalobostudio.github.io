@@ -45,6 +45,88 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    box-sizing: border-box;
 }
+#wb_Shape1 a svg
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape1 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 13%;
+   top: 24.53%;
+   width: 73%;
+   height: 49.06%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape1
+{
+   filter: drop-shadow(1px 1px 5px rgba(25,140,182,0.20));
+}
+#wb_Shape7 a svg
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape7 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape7 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape7 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape7_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 9.49%;
+   top: 24.53%;
+   width: 80.29%;
+   height: 49.06%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape7
+{
+   filter: drop-shadow(1px 1px 5px rgba(25,140,182,0.20));
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
 #wb_Image2
 {
    vertical-align: top;
@@ -60,48 +142,10 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#Layer2
-{
-   background-color: transparent;
-   background-image: none;
-   border-radius: 0px;
-}
-#Shape1
-{
-   top: 0px;
-   width: 145px;
-   height: 53px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 25px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape1:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape1_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 8.97%;
-   top: 24.53%;
-   width: 81.38%;
-   height: 49.06%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
 #Shape2
 {
    top: 0px;
-   width: 151px;
+   width: 144px;
    height: 53px;
    background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
    border: 1px #59CAF4 solid;
@@ -120,9 +164,9 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    justify-content: center;
    flex-direction: column;
-    left: 0.66%;
+    left: 0.69%;
    top: 1.89%;
-   width: 98.68%;
+   width: 98.61%;
    height: 96.23%;
    box-sizing: border-box;
    overflow: hidden;
@@ -132,7 +176,7 @@ input:focus, textarea:focus, select:focus
 #Shape3
 {
    top: 0px;
-   width: 161px;
+   width: 139px;
    height: 53px;
    background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
    border: 1px #59CAF4 solid;
@@ -151,42 +195,10 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    justify-content: center;
    flex-direction: column;
-    left: 0.62%;
+    left: 0.72%;
    top: 1.89%;
-   width: 98.76%;
+   width: 98.56%;
    height: 96.23%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
-#Shape5
-{
-   top: 0px;
-   width: 158px;
-   height: 53px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 25px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape5:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape5_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 8.23%;
-   top: 24.53%;
-   width: 82.91%;
-   height: 49.06%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: center;
@@ -201,7 +213,7 @@ input:focus, textarea:focus, select:focus
 #Shape4
 {
    top: 0px;
-   width: 147px;
+   width: 83px;
    height: 53px;
    background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
    border: 1px #59CAF4 solid;
@@ -220,28 +232,14 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    justify-content: center;
    flex-direction: column;
-    left: 0.68%;
+    left: 1.2%;
    top: 1.89%;
-   width: 98.64%;
+   width: 97.59%;
    height: 96.23%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: center;
    word-wrap: break-word;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text2 div
-{
-   text-align: left;
 }
 #Button1
 {
@@ -584,41 +582,11 @@ input:focus, textarea:focus, select:focus
    -webkit-appearance: none;
    margin: 0;
 }
-#wb_Image4
-{
-   vertical-align: top;
-}
-#Image4
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Image1
 {
    vertical-align: top;
 }
 #Image1
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -642,6 +610,152 @@ input:focus, textarea:focus, select:focus
 #wb_Text3 div
 {
    text-align: left;
+}
+#Shape5
+{
+   top: 0px;
+   width: 108px;
+   height: 53px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape5:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape5_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.93%;
+   top: 1.89%;
+   width: 98.15%;
+   height: 96.23%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px solid #00AFF0;
+   border-radius: 4px;
+}
+#Shape8
+{
+   top: 0px;
+   width: 163px;
+   height: 38px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape8:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape8_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.29%;
+   top: 18.42%;
+   width: 90.8%;
+   height: 60.53%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape9
+{
+   top: 0px;
+   width: 163px;
+   height: 38px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape9:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape9_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.29%;
+   top: 18.42%;
+   width: 90.8%;
+   height: 60.53%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
 }
 #PageFooter1
 {
