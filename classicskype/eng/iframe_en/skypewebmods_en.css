@@ -85,21 +85,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   border-radius: 5px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Line1
 {
    border-color: #FFFFFF;
@@ -239,4 +224,19 @@ input:focus, textarea:focus, select:focus
    overflow: hidden;
    text-align: center;
    word-wrap: break-word;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 5px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
