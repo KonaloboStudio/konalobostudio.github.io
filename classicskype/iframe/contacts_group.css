@@ -222,38 +222,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#Shape3
-{
-   top: 0px;
-   width: 216px;
-   height: 46px;
-   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
-   border: 1px #59CAF4 solid;
-   border-radius: 13px;
-   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
-}
-#Shape3:hover
-{
-   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
-   border: 1px #00BFFF solid;
-}
-#Shape3_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    left: 3.24%;
-   top: 15.22%;
-   width: 93.06%;
-   height: 67.39%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: center;
-   word-wrap: break-word;
-}
 #wb_Text5 
 {
    background-color: transparent;
@@ -634,6 +602,38 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
+#Shape6
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape6:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape6_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
 #Dialog1
 {
    margin-top: 0px;
@@ -673,7 +673,7 @@ input:focus, textarea:focus, select:focus
 #Dialog1 .modal-dialog
 {
    position: relative;
-   width: 509px;
+   width: 510px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -688,18 +688,18 @@ input:focus, textarea:focus, select:focus
 {
    padding: 10px 10px 10px 10px;
    background-color: #008BBF;
-   border-bottom: 1px solid #DDDDDD;
+   border-bottom: 1px solid #59CAF4;
 }
 #Dialog1 .modal-footer
 {
    padding: 10px 10px 10px 10px;
-   border-top: 1px solid #DDDDDD;
+   border-top: 1px solid #59CAF4;
 }
 #Dialog1 .modal-body
 {
    position: relative;
-   width: 509px;
-   height: 304px;
+   width: 510px;
+   height: 303px;
 }
 #Dialog1 .close
 {
@@ -776,7 +776,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Text18
 {
-   color: #4F4F4F;
+   color: #3C3C3C;
    font-family: Arial;
    font-weight: normal;
    font-size: 16px;
@@ -787,22 +787,22 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
 }
-#Shape6
+#Shape7
 {
    top: 0px;
-   width: 473px;
-   height: 46px;
+   width: 483px;
+   height: 48px;
    background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
    border: 1px #59CAF4 solid;
    border-radius: 13px;
    box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
 }
-#Shape6:hover
+#Shape7:hover
 {
    background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
    border: 1px #00BFFF solid;
 }
-#Shape6_text
+#Shape7_text
 {
    position: absolute;
    pointer-events: none;
@@ -810,10 +810,10 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    justify-content: center;
    flex-direction: column;
-    left: 1.48%;
-   top: 15.22%;
-   width: 96.83%;
-   height: 67.39%;
+    left: 1.45%;
+   top: 14.58%;
+   width: 96.89%;
+   height: 68.75%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: center;
