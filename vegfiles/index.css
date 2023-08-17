@@ -63,7 +63,7 @@ input:focus, textarea:focus, select:focus
 #Shape4
 {
    width: 329px;
-   height: 2091px;
+   height: 2450px;
    background-color: #26292E;
    background-image: none;
    border: 0px #B9BDC0 solid;
@@ -77,9 +77,9 @@ input:focus, textarea:focus, select:focus
    justify-content: flex-start;
    flex-direction: column;
     left: 0.3%;
-   top: 0.05%;
+   top: 0.04%;
    width: 99.39%;
-   height: 99.9%;
+   height: 99.92%;
    box-sizing: border-box;
    overflow: hidden;
    text-align: left;
@@ -137,32 +137,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
-#Shape3
-{
-   width: 571px;
-   height: 2091px;
-   background-color: #2F3237;
-   background-image: none;
-   border: 0px #A9A9A9 solid;
-   box-shadow: 0px 0px 15px rgba(0,0,0,0.78);
-}
-#Shape3_text
-{
-   position: absolute;
-   pointer-events: none;
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   flex-direction: column;
-    left: 0.18%;
-   top: 0.05%;
-   width: 99.65%;
-   height: 99.9%;
-   box-sizing: border-box;
-   overflow: hidden;
-   text-align: left;
-   word-wrap: break-word;
-}
 #wb_Text4 
 {
    background-color: rgba(255,255,255,0.20);
@@ -190,11 +164,11 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Text9
 {
-   color: #CED1D6;
+   color: #FFFFFF;
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 13px;
-   line-height: 17.5px;
+   font-size: 15px;
+   line-height: 18.5px;
 }
 #wb_Text9 p, #wb_Text9 ul
 {
@@ -271,7 +245,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Text7
 {
-   color: #DCDCDC;
+   color: #FFFFFF;
    font-family: "Trebuchet MS";
    font-weight: normal;
    font-size: 15px;
@@ -635,6 +609,156 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
+}
+#Layer1
+{
+   background-color: #3C3C3C;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer2
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer3
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer4
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer5
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer6
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer7
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer8
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer9
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer10
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer11
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer12
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer13
+{
+   background-color: #2F3237;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_Image14
+{
+   vertical-align: top;
+}
+#Image14
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#wb_Image15
+{
+   vertical-align: top;
+}
+#Image15
+{
+   border: 2px solid #000000;
+   border-radius: 3px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer14
+{
+   background-color: #4E525A;
+   background-image: none;
+   border-radius: 0px;
+   box-shadow: 0px 0px 7px #FFA500;
+}
+#Layer15
+{
+   background-color: #4E525A;
+   background-image: none;
+   border-radius: 0px;
+   box-shadow: 0px 0px 7px #FFA500;
 }
 #PageFooter1
 {
