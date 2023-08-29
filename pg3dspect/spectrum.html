@@ -1,6 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+		:root {
+			color-scheme: dark light;
+			font-family: Arial, sans-serif;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #121212;
+			color: #ffffff;
+		}
+
+		#settings {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+			background-color: #1f1f1f;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		figure {
+			margin: 10px 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		figcaption {
+			font-size: 16px;
+			margin-bottom: 5px;
+		}
+
+		input[type="file"],
+		input[type="color"],
+		input[type="number"],
+		select {
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			background-color: #1f1f1f;
+			color: #ffffff;
+		}
+
+		input[type="range"] {
+			width: 100%;
+		}
+
+		button {
+			padding: 10px 20px;
+			margin: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: #007bff;
+			color: #ffffff;
+			cursor: pointer;
+		}
+
+		canvas {
+			width: 100%;
+			max-width: 800px;
+			height: auto;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: 20px auto;
+			display: block;
+		}
+	</style>
 	<meta charset="utf-8">
 	<style>:root{color-scheme: dark light; font-family: sans-serif;}</style>
 	<title>Pixel Gun Music Spectrum</title>
@@ -84,5 +154,11 @@
 	<button onclick="canvas.requestFullscreen(); showBlack = true">Fullscreen</button>
 	<canvas id="output" width="1920" height="1080" onclick="startVideo()" style="height: 480px; background-size:cover; background-repeat:no-repeat; background-position: center;"></canvas>
 	<script src="spectrum.js"></script>
+	<div>
+		<a href="https://github.com/y0lopix" target="_blank">
+		  <button>Visit GitHub</button>
+		</a>
+	  </div>
+	  
 </body>
 </html>
