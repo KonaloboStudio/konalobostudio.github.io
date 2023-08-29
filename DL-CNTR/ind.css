@@ -1146,6 +1146,14 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
+#Shape2
+{
+   width: 527px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
+}
 #Shape2_text
 {
    position: absolute;
@@ -1183,6 +1191,14 @@ input:focus, textarea:focus, select:focus
 #wb_Text7 div
 {
    text-align: left;
+}
+#Shape3
+{
+   width: 496px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
 }
 #Shape3_text
 {
@@ -1237,6 +1253,14 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#Shape4
+{
+   width: 956px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
+}
 #Shape4_text
 {
    position: absolute;
@@ -1289,6 +1313,14 @@ input:focus, textarea:focus, select:focus
 #wb_Text9 div
 {
    text-align: left;
+}
+#Shape5
+{
+   width: 527px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
 }
 #Shape5_text
 {
@@ -1343,6 +1375,14 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#Shape6
+{
+   width: 505px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
+}
 #Shape6_text
 {
    position: absolute;
@@ -1395,6 +1435,14 @@ input:focus, textarea:focus, select:focus
 #wb_Text11 div
 {
    text-align: left;
+}
+#Shape7
+{
+   width: 505px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
 }
 #Shape7_text
 {
@@ -1449,6 +1497,14 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#Shape8
+{
+   width: 521px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
+}
 #Shape8_text
 {
    position: absolute;
@@ -1502,6 +1558,14 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#Shape9
+{
+   width: 422px;
+   height: 68px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
+}
 #Shape9_text
 {
    position: absolute;
@@ -1554,6 +1618,14 @@ input:focus, textarea:focus, select:focus
 #wb_Text14 div
 {
    text-align: left;
+}
+#Shape10
+{
+   width: 247px;
+   height: 122px;
+   background-image: linear-gradient(to bottom, #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%);
+   border: 1px #1E90FF solid;
+   border-radius: 25px;
 }
 #Shape10_text
 {
