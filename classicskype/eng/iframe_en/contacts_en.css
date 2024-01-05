@@ -4,7 +4,7 @@ body
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 13px;
+   font-size: 11px;
    line-height: 1.1875;
    margin: 0;
    padding: 0;
@@ -410,7 +410,7 @@ input:focus, textarea:focus, select:focus
 #Shape1
 {
    top: 0px;
-   width: 178px;
+   width: 360px;
    height: 66px;
    background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
    border: 1px #59CAF4 solid;
