@@ -1,0 +1,94 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_SKYLIB_ABOUT_BACK2
+{
+   vertical-align: top;
+}
+#SKYLIB_ABOUT_BACK2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SKYLIB_RAINBOWVIKA
+{
+   vertical-align: top;
+}
+#SKYLIB_RAINBOWVIKA
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SKYLIB_ABOUTINSTANSE 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_SKYLIB_ABOUTINSTANSE div
+{
+   text-align: right;
+}
+#wb_SKYLIB_ABOUT2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_SKYLIB_ABOUT2 div
+{
+   text-align: left;
+}
+#Shape2
+{
+   width: 142px;
+   height: 38px;
+   background-image: linear-gradient(to top, #1E5799 0%, #2989D8 50%, #207CCA 51%, #7DB9E8 100%);
+   border: 1px #0563C1 solid;
+   border-radius: 10px;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.52%;
+   top: 13.16%;
+   width: 91.55%;
+   height: 68.42%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
