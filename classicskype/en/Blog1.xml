@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
-		<title>Skype Classic News EN</title>
+		<title>Outdated EN</title>
 		<description>		</description>
 		<link>https://konalobostudio.github.io</link>
-		<language>ru</language>
+		<language>en</language>
 		<category>software</category>
 		<copyright>KonaloboStudio</copyright>
 		<image>
-			<url>https://konalobostudio.github.ioimages/skype_classic.png</url>
+			<url>https://konalobostudio.github.io/images/skype_classic.png</url>
 			<link>https://konalobostudio.github.io</link>
 		</image>
+		<item>
+			<title>This version of the RSS feed is outdated.</title>
+			<link>			</link>
+			<pubDate>Mon, 01 Apr 2024 01:01:01 GMT</pubDate>
+			<description>This version of the RSS feed is outdated. New posts will not be published here.
+
+Site news is now located here
+https://classicskypenews.blogspot.com .
+
+If you set up receiving site news from here, reassign your RSS reader to the new domain
+https://classicskypenews.blogspot.com/feeds/posts/default?alt=rss .</description>
+		</item>
 		<item>
 			<title>Welcome to Skype Classic Website Revision 3</title>
 			<link>			</link>
