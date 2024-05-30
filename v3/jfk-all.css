@@ -16390,3 +16390,37 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
 .exp-pl-item-shorter-details .pl-video-detail-container {
 	width: 200px;
 }
+
+.pl-header .playlist-actions .yt-uix-button {
+	margin-right: 5px;
+}
+
+.branded-page-module-title .shelves-play {
+  position: absolute;
+  margin: 0 0 0 7px !important;
+}
+.branded-page-module-title-v2 .shelves-play {
+  position: absolute;
+  margin: -2px 0 0 7px !important;
+}
+
+
+.video-list > .channels-browse-content-grid {
+    margin-right: unset;
+}
+.video-list > .channels-browse-content-grid > .distiller_yt-thread {
+    width: 100%;
+    padding-bottom: 13px;
+}
+.video-list > .channels-browse-content-grid + .channels-browse-content-grid > .distiller_yt-thread {
+    padding-top: 13px;
+        border-top: 1px solid #f1f1f1;
+}
+.video-list > .channels-browse-content-grid > .distiller_yt-thread .thread .comments {
+    display: none;
+}
+
+
+.watch-sidebar-section:not(:only-child) .compact-post:nth-child(n+5) {
+    display: none;
+}
