@@ -1,194 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/misc/header.html</loc>
-		<lastmod>2024-01-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/misc/footer.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/downloads.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/misc/SKYLIB_ABOUT.html</loc>
-		<lastmod>2024-01-15</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/archive.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/misc/profile_test.html</loc>
-		<lastmod>2024-01-15</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/faq.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/pages/skype8mods.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/about.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/pages/archive.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/webwrapper.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/pages/users_pages/profiles.html</loc>
-		<lastmod>2024-02-03</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/community/profiles.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/pages/users_pages/groups.html</loc>
-		<lastmod>2024-02-03</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/community/groups.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/pages/profile_customize.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/community/guest_book.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/ru/revisions.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/community/add_profile.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/misc_en/header_en.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/community/update_profile.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/misc_en/footer_en.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/d/FOOTER.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/pages/skype8mods.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/d/SKYLIB_TEST.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/pages/archive.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/d/FOOTER_ABOUT.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/pages/users_pages/profiles.html</loc>
-		<lastmod>2024-02-03</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/d/outdated.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/pages/users_pages/groups.html</loc>
-		<lastmod>2024-02-03</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/ru/d/HEADER_OLD.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/en/pages/profile_customize.html</loc>
-		<lastmod>2024-01-15</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/skype8mods.html</loc>
-		<lastmod>2024-01-13</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/downloads.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/skypewebmods.html</loc>
-		<lastmod>2024-01-11</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/archive.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/archive.html</loc>
-		<lastmod>2024-01-10</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/faq.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/contacts.html</loc>
-		<lastmod>2024-01-12</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/about.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/sfb.html</loc>
-		<lastmod>2023-10-11</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/webwrapper.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/iframe/contacts_group.html</loc>
-		<lastmod>2024-01-13</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/community/profiles.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/index_en.html</loc>
-		<lastmod>2023-11-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/community/groups.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/solutions_en.html</loc>
-		<lastmod>2023-11-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/community/guest_book.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/skype8mods_en.html</loc>
-		<lastmod>2023-11-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/community/add_profile.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/skypewebmods_en.html</loc>
-		<lastmod>2023-11-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/community/update_profile.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/archive_en.html</loc>
-		<lastmod>2024-01-14</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/d_en/FOOTER_EN.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/contacts_en.html</loc>
-		<lastmod>2023-11-20</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/d_en/FOOTERABOUT.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/sfb_en.html</loc>
-		<lastmod>2023-10-11</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/d_en/outdated.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/iframe_en/contacts_group_en.html</loc>
-		<lastmod>2023-09-08</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/en/d_en/OLD_HEADER.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://konalobostudio.github.io/classicskype/OLD_WEBSITE/eng/index_en.html</loc>
-		<lastmod>2024-01-10</lastmod>
+		<loc>https://konalobostudio.github.io/classicskype/update/updating.html</loc>
+		<lastmod>2024-07-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://konalobostudio.github.io/classicskype/update/new_website.html</loc>
+		<lastmod>2024-07-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://konalobostudio.github.io/classicskype/update/FOOTER_UPD.html</loc>
+		<lastmod>2024-07-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://konalobostudio.github.io/classicskype/update/goodbye.html</loc>
+		<lastmod>2024-07-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
