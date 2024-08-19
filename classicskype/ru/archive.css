@@ -1246,6 +1246,29 @@ a:hover
    text-align: center;
    word-wrap: break-word;
 }
+#ARCHIVE_BUT_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+    left: 2.28%;
+   top: 2.5%;
+   width: 97.5%;
+   height: 92.5%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#Layer11
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
 #SKYLIB_FOOTER
 {
    background-color: #00AFF0;
