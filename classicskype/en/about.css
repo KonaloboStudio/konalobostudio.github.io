@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/10-4-6k.jpg');
+   background-image: url('images/10-10-6k.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -247,20 +247,6 @@ a:hover
    background-image: linear-gradient(to top, #D2D4D7 0%, #EBEBEB 100%);
    border: 1px solid #CCCCCC;
    border-radius: 5px;
-}
-#wb_SKYLIB_ABOUTINSTANSE 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 10px 10px 10px;
-   margin: 0;
-   text-align: right;
-}
-#wb_SKYLIB_ABOUTINSTANSE div
-{
-   text-align: right;
 }
 #wb_SKYLIB_ABOUT2 
 {
@@ -843,6 +829,34 @@ a:hover
 #wb_Text12 div
 {
    text-align: left;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#wb_SKYLIB_ABOUTINSTANSE 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   text-align: right;
+}
+#wb_SKYLIB_ABOUTINSTANSE div
+{
+   text-align: right;
 }
 #SKYLIB_FOOTER
 {
