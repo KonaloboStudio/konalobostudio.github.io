@@ -57,15 +57,32 @@ p {
 }
 a:link,
 a:visited {
-  color: #ffffff00;
+  color: #fff0;
 }
-p1 {
+.copy {
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
   font-size: small;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+}
+p2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke !important;
+  text-shadow: 1px 1px 2px black;
+}
+.link:link,
+.link:visited {
+  color: #0078ca;
+}
+.en_link {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
 }
