@@ -1,56 +1,39 @@
 <!DOCTYPE html>
-<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .container {
-            text-align: center;
-            max-width: 600px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 16px;
-            color: #333;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-    <title>404 - Страница не найдена</title>
-    <link href="https://konalobostudio.github.io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" href="./404.css" />
+  <title>Ошиб_очка (404)</title>
+  <link rel="icon" href="https://konalobostudio.github.io/tech/magixa_favicon.ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <img src="https://konalobostudio.github.io/404i.png" alt="404">
-        <p>Ой, кажется, вы попали на еще не созданную страницу. А может быть вы просто ошиблись адресом и написали лишнюю букву, с кем не бывает. В любом случае вы всегда можете <a href="/">вернуться на главную</a> и продолжить использование нашего проекта.</p>
-        <p>Однако, если вы видите это окно при попытке зайти на уже существующий раздел сайта, или эта ошибка появляется уже не впервые, попробуйте создать тикет для помощи в поиске бага. Обратите внимание, вам нужен аккаунт GitHub для создания тикета.</p>
+  <div id="magixa_body">
+    <div class="magixa">
+      <img src="https://konalobostudio.github.io/tech/404.png" />
     </div>
+    <div class="panel_center_body">
+      <div class="panel_center">
+        <div class="in_panel_center">
+          <h1>Страница не найдена.</h1>
+          <p>
+            Ой, кажется, вы попали на еще не созданную страницу. А может быть вы
+            просто ошиблись адресом и написали лишнюю букву, с кем не бывает. В
+            любом случае вы всегда можете вернуться
+            <a class="link" href="https://konalobostudio.github.io"
+              >на главную</a
+            >
+            и продолжить использование проекта.
+          </p>
+          <p>
+            Однако, если вы видите это окно при попытке зайти на уже
+            существующий раздел сайта, или эта ошибка появляется уже не впервые,
+            попробуйте <a class="link" href="https://github.com/KonaloboStudio/konalobostudio.github.io/issues"
+            >создать тикет</a
+          > для помощи в поиске бага. Обратите
+            внимание, вам нужен аккаунт GitHub для создания тикета.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
