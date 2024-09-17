@@ -17683,3 +17683,7 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
     float: right;
     margin-left: 5px;
 }
+
+#guide-subscriptions-promo .guide-channels-list .guide-channel a, #guide-subscriptions-promo .guide-channels-list {
+    width: unset!Important;
+}

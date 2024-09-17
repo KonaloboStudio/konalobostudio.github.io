@@ -483,15 +483,15 @@ body, #guide-main, #guide-container, #masthead-search-terms, #watch7-sidebar, .e
     background: var(--color-fff);
 }
 .c4-checklist-module {
-    background: var(--color-fff);
-    border-color: var(--color-e2);
+    background: var(--color-fff)!Important;
+    border-color: var(--color-e2)!Important;
     color: var(--color-444);
 }
 .c4-checklist-module .checklist-item.acknowledged .todo-title-text, .c4-checklist-module .checklist-item.done .todo-title-text, .c4-checklist-module-title {
     color: var(--color-333);
 }
 #c4-shelves-container {
-    background-color: var(--color-fff);
+    background-color: var(--color-fff)!Important;
 }
 .livestream_chat .collapsible, .livestream_chat .collapsible .create_message {
     background: var(--color-fff);
@@ -1255,4 +1255,65 @@ a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item,
 }
 .branded-page-module-title-v2 span.branded-page-module-title-text-v2 span.link, .branded-page-module-title-v2 .branded-page-module-title-text-v2 a.link:not(:hover) {
     color: var(--color-333);
+}
+
+.jfk-tab-navigator .tabs .tab, .net-links .net-link:not(:hover), .jfk-oobe-welcome-intro .logo-intro .welcome-description {
+    color: var(--color-333);
+}
+.jfk-tab-navigator .tabs .tab .oz-sprite, .preset-list .preset .desc .exp-info-icon {
+    filter: invert(1);
+}
+.jfk-dialog-window-control .oz-sprite:hover {
+    color: var(--color-444);
+}
+.jfk-dialog-window-control .oz-sprite.active, .jfk-oobe-welcome-intro .logo-intro .welcome-intro {
+    color: var(--color-222);
+}
+.jfk-tab-navigator .tabs, .new-config-menu .vl-filter, .oobe-config .internal-setting {
+    border-bottom-color: var(--color-ccc);
+}
+.oobe-config .left {
+    border-right-color: var(--color-ccc);
+}
+.oobe-config .floor + * {
+    border-top-color: var(--color-ccc);
+}
+.oobe-config .notice {
+    color: var(--color-666);
+}
+.content .vl-about .sitebar + .main {
+    border-left-color: var(--color-ccc);
+}
+.preset-list .preset {
+    background-color: var(--color-fa);
+    border-color: var(--color-ccc);
+}
+.preset-list .preset .title {
+    color: var(--color-111);
+}
+.fancy-toggle {
+    background: var(--color-e9);
+    border-color: var(--color-ddd);
+}
+.fancy-toggle .line, .fancy-toggle .off {
+    background: var(--color-ddd);
+}
+.fancy-toggle .line:before {
+    border-color: var(--color-e9) transparent transparent var(--color-e9);
+}
+.preset-list .preset .desc .exp-info .view:hover + .exp-info-list {
+    background: var(--color-fff);
+    border-color: var(--color-ddd);
+}
+#guide-subscriptions-promo.default-promo {
+    border-color: var(--color-ccc);
+}
+.image-picker .image-option input.jfk-round-checkbox:checked {
+    background-color: var(--color-f5);
+}
+.image-picker .image-option {
+    border-color: var(--color-d9);
+}
+.image-picker .image-option:hover {
+    background-color: var(--color-fa);
 }
