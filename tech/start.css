@@ -1,0 +1,16 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Цвет темного фона */
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Добавлено для позиционирования частиц */
+}
