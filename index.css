@@ -1,22 +1,9 @@
-body,
-html {
-  background-color: black;
-  overflow: hidden;
-  position: sticky;
-  margin: 0 auto;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  min-width: 700px;
-  cursor: url("./tech/curs/blue_normal.cur"), pointer;
+body {
+  background-image: url(/tech/back.jpg);
 }
 #magixa_body {
-  border-radius: 5px;
-  height: inherit;
-  background-image: url(./tech/back.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
+  backdrop-filter: blur(5px);
 }
 .panel_left_body {
   width: 100%;
@@ -32,9 +19,9 @@ html {
   padding-left: 15px;
 }
 .panel_left {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
   width: 70px;
-  background: linear-gradient(#888888cc, #222222cc);
+  background: linear-gradient(#88888888, #22222288);
   border-radius: 7px;
   backdrop-filter: blur(5px);
 }
@@ -47,9 +34,9 @@ html {
   overflow: auto;
 }
 .panel_center {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
   width: 550px;
-  background: linear-gradient(#888888cc, #222222cc);
+  background: linear-gradient(#88888888, #22222288);
   border-radius: 7px;
   backdrop-filter: blur(5px);
 }
@@ -87,23 +74,23 @@ h1 {
   object-fit: cover;
   height: 250px;
 }
-.copy {
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
+.copy,
+.home_links2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
   font-size: small;
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
+  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
 }
 .bt11 {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Rotonda Regular";
   font-size: 14px;
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
   margin: 0px !important;
+  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
 }
 #sep {
   border-top: 1px solid #636363;
@@ -114,17 +101,15 @@ h1 {
   color: #0078ca;
   cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
 }
-.home_links2 {
-  margin-left: 5px;
-  color: #0078ca;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: small;
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px black;
-  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
-}
+
 #ver_sep {
   border-right: 1px solid #636363;
   margin-left: 5px;
   margin-right: 5px;
+}
+.under_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }

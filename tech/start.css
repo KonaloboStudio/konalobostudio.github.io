@@ -1,16 +1,30 @@
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #111; /* Цвет темного фона */
-    overflow: hidden;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  overflow: hidden;
+  min-width: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* Добавлено для позиционирования частиц */
+#magixa_body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+@font-face {
+    font-family: 'Rotonda Regular';
+    src: url('/tech/RotondaC.eot');
+    src: url('/tech/RotondaC.eot?#iefix') format('embedded-opentype'),;
+    src: url('/tech/RotondaC.woff') format('woff'),;
+    font-weight: normal;
+    font-style: normal;
+    }
