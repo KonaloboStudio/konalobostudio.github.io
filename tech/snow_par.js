@@ -1,8 +1,8 @@
 $(document).ready(documentReady);
 
 function documentReady() {
-  var MAX_SNOW = 50;
-  var MAX_SNOW_SIZE = 15;
+  var MAX_SNOW = 15;
+  var MAX_SNOW_SIZE = 30;
   var MAX_SNOW_SPEED = 1;
 
   snowStart();

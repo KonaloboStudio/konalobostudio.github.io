@@ -3,51 +3,17 @@
   <link rel="stylesheet" href="/tech/start.css" />
   <link rel="stylesheet" href="/index.css" />
   <title>KonaloboWorld!</title>
-  <link rel="icon" href="./tech/magixa_favicon.ico" />
+  <link rel="icon" href="/tech/magixa_favicon.ico" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/tech/snow_par.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script language="javascript">
-    var rev = "fwd";
-    function titlebar(val) {
-      var msg = "KonaloboWorld!";
-      var res = "KonaloboWorld!";
-      var speed = 300;
-      var pos = val;
-      msg = "   |-" + msg + "-|";
-      var le = msg.length;
-      if (rev == "fwd") {
-        if (pos < le) {
-          pos = pos + 1;
-          scroll = msg.substr(0, pos);
-          document.title = scroll;
-          timer = window.setTimeout("titlebar(" + pos + ")", speed);
-        } else {
-          rev = "bwd";
-          timer = window.setTimeout("titlebar(" + pos + ")", speed);
-        }
-      } else {
-        if (pos > 0) {
-          pos = pos - 1;
-          var ale = le - pos;
-          scrol = msg.substr(ale, le);
-          document.title = scrol;
-          timer = window.setTimeout("titlebar(" + pos + ")", speed);
-        } else {
-          rev = "fwd";
-          timer = window.setTimeout("titlebar(" + pos + ")", speed);
-        }
-      }
-    }
-    titlebar(0);
-  </script>
   <style>
     .button {
       font-family: "Rotonda Regular";
       width: 160px;
       height: 55px;
       color: #fff;
-      cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
+      cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
       font-size: 16px;
       font-weight: bold;
       text-align: center;
@@ -150,7 +116,7 @@
             >
               Classic Skype Website
             </button>
-            <button onclick="location.href='./DL-CNTR/ind.html'" class="button">
+            <button onclick="location.href='./DL-CNTR/index.html'" class="button">
               Download Center
             </button>
             <button
