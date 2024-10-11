@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Rotonda Regular';
+  src: url('/tech/RotondaC.eot');
+  src: url('/tech/RotondaC.eot?#iefix') format('embedded-opentype'),;
+  src: url('/tech/RotondaC.woff') format('woff'),;
+  }
 html {
   cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
 }
@@ -7,9 +13,10 @@ body {
   background-image: url(/tech/back_alt.jpg);
   background-color: #111;
   min-width: 700px;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
 }
