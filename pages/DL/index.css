@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Rotonda Regular";
+  src: url("/tech/font/RotondaC.eot");
+  src: url("/tech/font/RotondaC.eot?#iefix") format("embedded-opentype");
+  src: url("/tech/font/RotondaC.woff") format("woff");
+}
 html {
   cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
 }
