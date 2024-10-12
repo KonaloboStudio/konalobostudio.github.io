@@ -1,8 +1,7 @@
-@font-face {
-  font-family: "Rotonda Regular";
-  src: url("/tech/RotondaC.eot");
-  src: url("/tech/RotondaC.eot?#iefix") format("embedded-opentype");
-  src: url("/tech/RotondaC.woff") format("woff");
+a {
+  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
+}
+button {  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
 }
 html {
   cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
@@ -12,15 +11,23 @@ body {
   background-attachment: fixed;
 }
 #magixa_body {
+  height: max-content;
   align-items: normal;
+    display: flex;
+    flex-direction: column;
 }
-.up_panel_bg {    background: linear-gradient(#66666688, #11111191);
-    height: 40px;
-    width: 100%;
-    position: fixed;}
+.up_panel_bg {
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
+  backdrop-filter: blur(5px);
+  background: linear-gradient(#66666688, #11111191);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .up_panel {
   position: fixed;
-  width: 1120px;
+  width: 80%;
   height: 40px;
   display: flex;
   align-items: center;
@@ -42,6 +49,7 @@ body {
 .up_panel_link_btn:visited {
   color: rgb(70, 205, 255);
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 .up_panel_link_btn:hover {
   color: orange;
@@ -54,6 +62,12 @@ body {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+.up_panel_to_home:hover {
+  color: orange;
+  text-decoration: none;
 }
 .music_panel {
   height: 100px;
@@ -64,47 +78,61 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-.header2 {
-  position: absolute;
-  height: 300px;
+.ms_pages_header {
+  /* position: absolute; */
+  height: 100px;
   background: #fff0;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-.header1 {
-  padding-top: 300px;
+.ms_pages_header_sm {
+  /* position: absolute; */
+  height: 50px;
+  background: #fff0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.players_1 {
+  /* padding-top: 300px; */
   background: #fff0;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .wel {
-    max-width: 1100px;
   max-height: 60px;
   font-family: "Rotonda Regular";
   font-weight: bold;
   text-align: center;
+  max-width: 1100px;
   font-size: 56px;
   color: #ffffff;
   margin: 5px;
   padding: 0;
   display: flex;
   justify-content: center;
-  padding: 80px;
+  /* padding: 60px; */
+  text-shadow: 1px 1px 2px black;
 }
 .wel2 {
-    max-width: 1100px;
   font-family: "Rotonda Regular";
   font-weight: bold;
   text-align: center;
-  font-size: 36px;
+  max-width: 1100px;
+  font-size: 28px;
   color: #ffffff;
   margin: 5px;
   padding: 0;
   display: flex;
   justify-content: center;
-  padding: 150px;
+  /* padding: 130px; */
+  text-shadow: 1px 1px 2px black;
 }
 
 .ul_track {
@@ -113,7 +141,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
-  max-width: 1100px;
+  max-width: 1500px;
   justify-content: center;
 }
 .li_track {
@@ -125,6 +153,11 @@ body {
   padding: 5px;
   border-radius: 5px;
   width: 450px;
+  max-height: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 .track_desc {
   font-family: "Rotonda Regular";
@@ -134,4 +167,5 @@ body {
   color: #ffffff;
   margin: 5px;
   padding: 0;
+  text-shadow: 1px 1px 2px black;
 }

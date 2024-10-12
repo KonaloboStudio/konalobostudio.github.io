@@ -2,11 +2,14 @@ html {
   overflow: hidden;
 }
 body {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   overflow: hidden;
   background-image: url(/tech/back.jpg);
 }
 #magixa_body {
-  cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
   backdrop-filter: blur(5px);
 }
 .panel_left_body {
@@ -23,6 +26,7 @@ body {
   padding-left: 15px;
 }
 .panel_left {
+  height: 300px;
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
   width: 70px;
   background: linear-gradient(#88888888, #22222288);
@@ -45,6 +49,7 @@ body {
   backdrop-filter: blur(5px);
 }
 .in_panel {
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +90,7 @@ h1 {
   font-size: small;
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
-  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
+
 }
 .bt11 {
   text-align: center;
@@ -93,18 +98,14 @@ h1 {
   font-size: 14px;
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
-  margin: 0px !important;
-  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
-}
+  margin: 0px !important;}
 #sep {
   border-top: 1px solid #636363;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 .home_links {
-  color: #0078ca;
-  cursor: url("./tech/curs/blue_alt.cur"), pointer !important;
-}
+  color: #0078ca;}
 
 #ver_sep {
   border-right: 1px solid #636363;

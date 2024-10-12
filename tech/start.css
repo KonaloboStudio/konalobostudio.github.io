@@ -2,11 +2,12 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #111;
   min-width: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
+
 }
 #magixa_body {
   width: 100%;
@@ -20,10 +21,27 @@ html {
   background-size: cover;
 }
 @font-face {
-    font-family: 'Rotonda Regular';
-    src: url('/tech/RotondaC.eot');
-    src: url('/tech/RotondaC.eot?#iefix') format('embedded-opentype'),;
-    src: url('/tech/RotondaC.woff') format('woff'),;
-    font-weight: normal;
-    font-style: normal;
-    }
+  font-family: "Rotonda Regular";
+  src: url("/tech/font/RotondaC.eot");
+  src: url("/tech/font/RotondaC.eot?#iefix") format("embedded-opentype");
+  src: url("/tech/font/RotondaC.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  scrollbar-width: none !important;
+}
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+a {
+  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
+}
+button {  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
+}
+

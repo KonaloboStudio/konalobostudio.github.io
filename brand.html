@@ -2,18 +2,26 @@
 <head>
   <title>branding</title>
   <style>
+    .element::-webkit-scrollbar {
+      width: 0;
+    }
+    ::-webkit-scrollbar {
+      width: 0;
+    }
     body {
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
       background-color: transparent;
-      overflow: hidden;
       margin: 0px !important;
     }
     html {
+      scrollbar-width: none !important;
       position: sticky;
       margin: 0 auto;
-      top: 0;
       height: 100%;
-      cursor: url("/tech/curs/blue_normal.cur"),
-        pointer;
+      cursor: url("/tech/curs/blue_normal.cur"), pointer;
     }
     .br_soc_links {
       display: flex;
@@ -23,8 +31,7 @@
       margin: 0px !important;
     }
     .br_soc_link {
-      cursor: url("/tech/curs/blue_alt.cur"),
-        pointer !important;
+      cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
     }
   </style>
 </head>

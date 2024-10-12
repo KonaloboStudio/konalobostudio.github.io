@@ -1,9 +1,3 @@
-@font-face {
-  font-family: 'Rotonda Regular';
-  src: url('/tech/RotondaC.eot');
-  src: url('/tech/RotondaC.eot?#iefix') format('embedded-opentype'),;
-  src: url('/tech/RotondaC.woff') format('woff'),;
-  }
 html {
   cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
 }
@@ -43,17 +37,20 @@ body {
   font-weight: normal;
   color: rgb(255, 255, 255);
   font-size: 200%;
+  text-shadow: 1px 1px 2px black;
 }
 .adir h2 {
   font-weight: normal;
   color: rgb(255, 255, 255);
   font-size: 150%;
   margin-top: 2em;
+  text-shadow: 1px 1px 2px black;
 }
 .adir h3 {
   font-weight: normal;
   color: rgb(212, 212, 212);
   font-size: 100%;
+  text-shadow: 1px 1px 2px black;
 }
 .adir table {
   border-spacing: 0;
@@ -72,6 +69,7 @@ body {
   text-overflow: ellipsis;
   font-size: 100%;
   color: rgb(212, 212, 212);
+  text-shadow: 1px 1px 2px black;
 }
 .adir table > tbody > tr > td {
   padding: 0.5em 2em 0.5em 0;
@@ -83,6 +81,7 @@ body {
 .adir a:link {
   color: rgb(70, 205, 255);
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 .adir a:visited {
   color: rgb(70, 205, 255);
@@ -114,6 +113,7 @@ body {
 }
 .adir .fold a:link {
   color: rgb(70, 205, 255);
+  text-shadow: 1px 1px 2px black;
 }
 .adir .fold a:visited {
   color: rgb(70, 205, 255);
@@ -132,10 +132,13 @@ body {
   text-align: right;
   color: rgb(212, 212, 212);
   width: 10%;
+  text-shadow: 1px 1px 2px black;
 }
 .adir .date {
   width: 10%;
+  text-shadow: 1px 1px 2px black;
 }
 .adir .cust {
   width: 0;
+  text-shadow: 1px 1px 2px black;
 }

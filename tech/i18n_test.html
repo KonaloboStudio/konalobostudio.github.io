@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>i18n</title>
+    <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/i18next@23.15.2/dist/cjs/i18next.js"></script>
+    <script src="/tech/js/i18n_test.js"></script>
+</head>
+<body><body>
+    <p id="greeting"></p>
+    <p id="welcome"></p>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Мой сайт</title>
+    <script src="https://unpkg.com/i18next"></script>
+    <script>
+        i18n
+            .init({
+                lng: 'en', // Начальный язык
+                resources: {
+                    en: {
+                        translation: {
+                            "hello": "Hello",
+                            "welcome": "Welcome to my site"
+                        }
+                    },
+                    ru: {
+                        translation: {
+                            "hello": "Привет",
+                            "welcome": "Добро пожаловать на мой сайт"
+                        }
+                    }
+                }
+            })
+            .then(() => {
+                document.getElementById('greeting').textContent = i18n.t('hello');
+                document.getElementById('welcome').textContent = i18n.t('welcome');
+            });
+    </script>
+</head>
+<body>
+    <p id="greeting"></p>
+    <p id="welcome"></p>
+</body>
+</html>
