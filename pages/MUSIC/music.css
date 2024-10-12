@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Rotonda Regular";
+  src: url("/tech/RotondaC.eot");
+  src: url("/tech/RotondaC.eot?#iefix") format("embedded-opentype");
+  src: url("/tech/RotondaC.woff") format("woff");
+}
+html {
+  cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
+}
+body {
+  background-image: url(/tech/back_alt.jpg);
+  background-attachment: fixed;
+}
+#magixa_body {
+  align-items: normal;
+}
+.up_panel_bg {    background: linear-gradient(#66666688, #11111191);
+    height: 40px;
+    width: 100%;
+    position: fixed;}
+.up_panel {
+  position: fixed;
+  width: 1120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.up_ul {
+  font-family: "Rotonda Regular";
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+.up_li {
+  margin-right: 20px;
+}
+.up_panel_link_btn,
+.up_panel_link_btn:visited {
+  color: rgb(70, 205, 255);
+  text-decoration: none;
+}
+.up_panel_link_btn:hover {
+  color: orange;
+  text-decoration: none;
+}
+.up_panel_to_home {
+  font-family: "Rotonda Regular";
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.music_panel {
+  height: 100px;
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header2 {
+  position: absolute;
+  height: 300px;
+  background: #fff0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header1 {
+  padding-top: 300px;
+  background: #fff0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wel {
+    max-width: 1100px;
+  max-height: 60px;
+  font-family: "Rotonda Regular";
+  font-weight: bold;
+  text-align: center;
+  font-size: 56px;
+  color: #ffffff;
+  margin: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+.wel2 {
+    max-width: 1100px;
+  font-family: "Rotonda Regular";
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  margin: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+
+.ul_track {
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  max-width: 1100px;
+  justify-content: center;
+}
+.li_track {
+  backdrop-filter: blur(5px);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
+  background: linear-gradient(#ffffff59, #bdbdbd4d);
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 450px;
+}
+.track_desc {
+  font-family: "Rotonda Regular";
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+  margin: 5px;
+  padding: 0;
+}
