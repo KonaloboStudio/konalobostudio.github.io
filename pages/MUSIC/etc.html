@@ -4,6 +4,7 @@
   <link rel="icon" href="/tech/magixa_favicon.ico" />
   <link rel="stylesheet" href="/tech/start.css" />
   <link rel="stylesheet" href="./music.css" />
+  <link rel="stylesheet" href="/tech/custom_plyr.css" />
   <!-- плур -->
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
@@ -48,7 +49,7 @@
         <li class="li_track">
           <p class="track_desc">SKYLIB30</p>
 
-          <audio id="player" controls>
+          <audio id="player" preload='none' controls>
             <source
               src="https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/SKYLIB/SKYLIB3.mp3"
               type="audio/mp3"
@@ -57,7 +58,7 @@
         </li>
         <li class="li_track">
           <p class="track_desc">SKYLIB31</p>
-          <audio id="player" controls>
+          <audio id="player" preload='none' controls>
             <source
             src="https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/SKYLIB/SKYLIB31.mp3"
             type="audio/mp3"
@@ -67,7 +68,7 @@
         <li class="li_track">
           <p class="track_desc">SKYLIB32</p>
 
-          <audio id="player" controls>
+          <audio id="player" preload='none' controls>
             <source
             src="https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/SKYLIB/SKYLIB32.mp3"
             type="audio/mp3"
@@ -80,10 +81,5 @@
 
   <!-- скрипт плура -->
   <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-  <script>
-    const players = document.querySelectorAll("audio");
-    players.forEach((player) => {
-      new Plyr(player);
-    });
-  </script>
+  <script src="/tech/js/plyr_helper.js"></script>
 </body>
