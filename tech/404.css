@@ -1,44 +1,24 @@
-body,
-html {
-  background: linear-gradient(#363636, #111111) fixed;
-  overflow: hidden;
-  position: sticky;
-  margin: 0 auto;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  min-width: 700px;
+body {
+  background: linear-gradient(#353535,#1f1f1f);
 }
-#magixa_body {
-  border-radius: 5px;
-  height: inherit;
-}
-.magixa {
-  width: 620px;
+.magixa_p_404 {
   position: fixed;
-  bottom: -20px;
-  right: 20px;
-  max-width: 600px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  min-height: 100vh;
+  background-size: contain; 
+  background-image: url(/tech/magixa_img/404err.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: 7;
+  filter: drop-shadow(0 0 0.75rem #002967);
 }
-.panel_center_body {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  overflow: auto;
-}
-.panel_center {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  width: 650px;
-  background: linear-gradient(#888888cc, #222222cc);
-  border-radius: 7px;
-  backdrop-filter: blur(5px);
-}
-.in_panel_center {
-  padding: 0 1em 0 1em;
+@media (min-height: 800px) {
+  .magixa_p_404 {
+   background-size: auto;
+  }
 }
 h1 {
   text-align: center;
@@ -52,38 +32,37 @@ p {
   color: whitesmoke;
   text-shadow: 1px 1px 2px black;
 }
-.sep {
-  border-top: 1px solid #636363;
-}
 a:link,
 a:visited {
-  color: #fff0;
+  color: rgb(0, 225, 255);
 }
-.copy {
+.ks_wrld_logo {
+  font-size: 64px;
+  font-family: "28_days_later_cyrregular";
+  color: #00ddfa;
+  text-shadow: -5px -5px 0 #003483, 5px -5px 0 #003483, -5px 5px 0 #003483,
+    5px 5px 0 #003483, 0px 0px 20px #002967, 0px 0px 15px #002967,
+    0px 0px 10px #002967, 0px 0px 5px #002967;
+  margin: 0;
+  text-align: center;
   padding-bottom: 10px;
+}
+.windows {
   display: flex;
   justify-content: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-size: small;
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px black;
+  z-index: 10;
 }
-p2 {
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: whitesmoke !important;
-  text-shadow: 1px 1px 2px black;
+.center_window {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 7px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 75%), inset 0px 0px 5px rgb(101 101 101);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 550px;
 }
-.link:link,
-.link:visited {
-  color: #0099ff;
-  text-decoration: none;
-}
-.en_link {
-  font-size: 18px;
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px black;
+.ins_wind {
+  margin: 10px;
 }

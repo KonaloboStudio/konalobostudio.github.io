@@ -1,0 +1,55 @@
+body {
+  background-image: url(./151_result.jpg);
+  background-attachment: fixed;
+}
+
+#magixa_body {
+    height: max-content;
+    position: relative;
+}
+.magixa_p {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  min-height: 100vh;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 7;
+  filter: drop-shadow(0 0 0.75rem #002967);
+}
+
+.magixa_p {
+  background-image: url(/tech/magixa_img/1.png);
+}
+
+@media (min-height: 800px) {
+  .magixa_p {
+    background-size: auto;
+  }
+}
+
+.sidebar {
+    background: aqua;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: 0;
+    min-width: 150px;
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.sidebar_ul {
+    list-style: none;
+}
+
+.sidebar_li {}
+
+.sidebar_link {
+    text-decoration: none;
+
+}

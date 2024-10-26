@@ -1,0 +1,67 @@
+body {
+  backdrop-filter: blur(10px);
+}
+#rain {
+  position: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+.magixa_p {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  min-height: 100vh;
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 7;
+  filter: drop-shadow(0 0 0.75rem #002967);
+}
+
+@media (min-height: 800px) {
+  .magixa_p {
+    background-size: auto;
+  }
+}
+.kse_links {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.windows {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.center_window {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 7px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 75%), inset 0px 0px 5px rgb(101 101 101);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 550px;
+}
+.ins_wind {
+  margin: 10px;
+}
+.btn_zone {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.copy {
+  display: flex;
+  margin: 2px;
+  justify-content: center;
+  font-family: "Rotonda Regular";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}

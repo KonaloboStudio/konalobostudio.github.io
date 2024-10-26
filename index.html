@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="/tech/start.css" />
-  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="/tech/new_index.css" />
   <title>KonaloboWorld!</title>
   <!-- определение превью в дискордике и прочее -->
   <meta name="description" content="" />
@@ -17,111 +17,32 @@
   <meta name="twitter:description" content="" />
   <meta name="twitter:image" content="/tech/site_preview/ind_prev.png" />
   <link rel="icon" href="/tech/magixa_favicon.ico" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/tech/js/snow_par.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <style>
-    .button {
-      font-family: "Rotonda Regular";
-      width: 160px;
-      height: 55px;
-      color: #fff;
-      cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      background: linear-gradient(#353535, #1a1a1a);
-      position: relative;
-      z-index: 0;
-      border-radius: 10px;
-      margin: 5px;
-    }
-    .button:before {
-      content: "";
-      background: linear-gradient(
-        45deg,
-        #00ffd5,
-        #002bff,
-        #7a00ff,
-        #002bff,
-        #00ffd5
-      );
-      position: absolute;
-      top: -2px;
-      left: -2px;
-      background-size: 400%;
-      z-index: -1;
-      filter: blur(5px);
-      width: calc(100% + 4px);
-      height: calc(100% + 4px);
-      animation: glow 20s linear infinite;
-      opacity: 0;
-      transition: opacity 0.3s ease-in-out;
-      border-radius: 10px;
-    }
-    .button:active:after {
-      background: transparent;
-    }
-    .button:hover:before {
-      opacity: 1;
-    }
-    .button:after {
-      z-index: -1;
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(#353535, #1a1a1a);
-      left: 0;
-      top: 0;
-      border-radius: 10px;
-    }
-    @keyframes glow {
-      0% {
-        background-position: 0 0;
-      }
-
-      50% {
-        background-position: 400% 0;
-      }
-
-      100% {
-        background-position: 0 0;
-      }
-    }
-  </style>
 </head>
 <body>
-  <div id="magixa_body">
-    <div class="magixa">
-      <img
-        src="/tech/mg.png"
-        style="
-          -moz-user-select: none;
-          -webkit-user-select: none;
-          -ms-user-select: none;
-          pointer-events: none;
-          user-select: none;
-        "
-      />
+  <script src="/tech/js/preloader.min.js"></script>
+  <canvas id="rain"></canvas>
+  <script src="/tech/js/rain.js"></script>
+  <div class="magixa_p"></div>
+  <script src="/tech/js/rnd_imagebuilder.js"></script>
+  <div class="upper_panel_bg">
+    <div class="up_panel">
+      <p class="ks_wrld_int">KonaloboWorld</p>
+      <iframe
+        class="kse_links"
+        src="/brand.html"
+        scrolling="no"
+        width="100%"
+        style="overflow: hidden; height: 40px; border: 0px; margin: 5px"
+      ></iframe>
     </div>
-    <div id="snow-par-container"></div>
-    <div class="panel_center_body">
-      <div class="panel_center">
-        <div class="in_panel_center">
-          <img
-            class="kswrld_logo"
-            src="/tech/logo.png"
-            style="
-              -moz-user-select: none;
-              -webkit-user-select: none;
-              -ms-user-select: none;
-              pointer-events: none;
-              user-select: none;
-            "
-          />
-          <p class="bt11">Beta</p>
-          <div id="sep"></div>
+  </div>
+  <div id="magixa_body">
+    <div class="windows">
+      <div class="center_window">
+        <div class="ins_wind">
+          <!-- <p class="ks_wrld_logo">KonaloboWorld</p> -->
           <div class="btn_zone">
             <button
               onclick="location.href='./classicskype/en/index.html'"
@@ -129,20 +50,23 @@
             >
               Classic Skype Website
             </button>
-            <button onclick="location.href='pages/DL/index.html'" class="button">
+            <button
+              onclick="location.href='sec/DL/index.html'"
+              class="button"
+            >
               Download Center
             </button>
             <button
-              onclick="location.href='pages/MUSIC/index.html'"
+              onclick="location.href='sec/MUSIC/index.html'"
               class="button"
             >
               Music
             </button>
             <button
-              onclick="location.href='pages/vegfiles/index.htm'"
+              onclick="location.href='sec/VEG/index.html'"
               class="button"
             >
-              VEG. Files
+              My VEG Files
             </button>
             <button
               onclick="location.href='/pg3dcollect/index_pg.html'"
@@ -156,26 +80,14 @@
             >
               Miner Lands
             </button>
+            <!-- <button
+            onclick="location.href='/sec/MAGIXA/index.html'"
+            class="button"
+          >
+            shh///
+          </button> ---> 
           </div>
-          <div class="under_links">
-            <p class="copy">©KonaloboStudio 2022-2024</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="panel_left_body">
-      <div class="panel_left">
-        <div class="in_panel">
-          <iframe
-            class="kse_links"
-            src="/brand.html"
-            width="50px"
-            style="
-            height: 100%;
-              border: 0px;
-              margin: 5px;
-            "
-          ></iframe>
+          <p class="copy">©KonaloboStudio 2022-2024</p>
         </div>
       </div>
     </div>

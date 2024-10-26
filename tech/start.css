@@ -7,7 +7,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
-
 }
 #magixa_body {
   width: 100%;
@@ -19,6 +18,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@font-face {
+  font-family: "28_days_later_cyrregular";
+  src: url("/tech/font/28_days_later_cyr_regular-webfont.woff2") format("woff2"),
+    url("/tech/font/28_days_later_cyr_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Rotonda Regular";
@@ -42,6 +48,118 @@ html {
 a {
   cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
 }
-button {  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
+button {
+  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
+}
+.button {
+  font-family: "Rotonda Regular";
+  width: 160px;
+  height: 55px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background: linear-gradient(#afafafa1, #3d3d3da1);
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin: 5px;
+}
+.button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #2a33b4,
+    #0071f2,
+    #00abfb,
+    #0071f2,
+    #2a33b4
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glow 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.button:active:after {
+  background: transparent;
+}
+.button:hover:before {
+  opacity: 1;
+}
+.button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#afafafa1, #3d3d3da1);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+@keyframes glow {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
 
+.ks_wrld_int {
+  font-size: 28px;
+  font-family: "28_days_later_cyrregular";
+  color: #00ddfa;
+  text-shadow: -2px -2px 0 #003483, 2px -2px 0 #003483, -2px 2px 0 #003483,
+    2px 2px 0 #003483;
+  padding-bottom: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.ks_wrld_int:hover {
+  transform: scale(1.1);
+}
+.ks_wrld_logo {
+  font-size: 64px;
+  font-family: "28_days_later_cyrregular";
+  color: #00ddfa;
+  text-shadow: -5px -5px 0 #003483, 5px -5px 0 #003483, -5px 5px 0 #003483,
+    5px 5px 0 #003483, 0px 0px 20px #002967, 0px 0px 15px #002967,
+    0px 0px 10px #002967, 0px 0px 5px #002967;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.upper_panel_bg {
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 75%), inset 0px 0px 5px rgb(101 101 101);
+  backdrop-filter: blur(10px);
+  background: linear-gradient(#66666688, #11111191);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 8;
+  border: 0px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.308);
+}
+.up_panel {
+  position: fixed;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

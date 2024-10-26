@@ -1,0 +1,134 @@
+.yt_prev_but:hover,
+.veg_dl_but-08:hover,
+.veg_dl_but-10:hover,
+.veg_dl_but-11:hover,
+.veg_dl_but-12:hover,
+.veg_dl_but-13:hover,
+.veg_dl_but-14:hover {
+  filter: brightness(1.3);
+}
+
+.yt_prev_but {
+  background-image: url(./images/yt_prev.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.yt_prev_but:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-08 {
+  background-image: url(./images/vegas08.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-10:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-10 {
+  background-image: url(./images/vegas10.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-10:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-11 {
+  background-image: url(./images/vegas11.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-11:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-12 {
+  background-image: url(./images/vegas12.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-12:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-13 {
+  background-image: url(./images/vegas13.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-13:active {
+  position: relative;
+  top: 1px;
+}
+
+.veg_dl_but-14 {
+  background-image: url(./images/vegas14.png);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 156px;
+  min-width: 156px;
+  padding: 34px 0px;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.veg_dl_but-14:active {
+  position: relative;
+  top: 1px;
+}

@@ -1,9 +1,13 @@
 :root {
   --plyr-color-main: linear-gradient(#18aaf9, #0a62e6);
   --plyr-audio-controls-background: linear-gradient(#fff, #c4c4c4);
+  --plyr-menu-radius: 5px;
+  --plyr-audio-control-color: #3b3b3b;
+  --plyr-menu-color: #3b3b3b;
 }
 .plyr {
   border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.425);
 }
 .plyr__controls {
   font-family: "Rotonda Regular";
@@ -11,4 +15,7 @@
 }
 .plyr--full-ui input[type="range"] {
   color: #1187f0 !important;
+}
+.plyr__menu__container {
+  backdrop-filter: blur(10px);
 }
