@@ -1317,3 +1317,6 @@ a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item,
 .image-picker .image-option:hover {
     background-color: var(--color-fa);
 }
+.feed-list .top-row-alignment {
+	border-bottom-color: var(--color-e2);
+}
