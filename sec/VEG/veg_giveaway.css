@@ -157,7 +157,7 @@ body {
 
 .vg_pages_magixa_header_sm {
   background-position: center;
-  background-image: url(/sec/VEG/images/magixa_header.png);
+  background-image: url(/sec/VEG/images/flp_giveaway.png);
   min-height: 300px;
   width: 100%;
   display: flex;
@@ -165,7 +165,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 0;
+  margin-top: 30px;
 }
 .magixa_begn_arch {
   background: #fff0;
@@ -201,4 +201,16 @@ body {
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+.magixa_li_hed1 {
+  font-family: "Rotonda Regular";
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+  padding: 0;
+  text-shadow: 1px 1px 2px black;
+  width: 100%;
+  text-align: center;
 }
