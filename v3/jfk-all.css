@@ -18321,6 +18321,6 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
     padding: 0 8px;
 }
 
-.cardified-page .feed-list .top-row-alignment {
+.site-center-aligned .feed-list .top-row-alignment {
 	display: none;
 }
