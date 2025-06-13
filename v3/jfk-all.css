@@ -18324,3 +18324,26 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
 .site-center-aligned .feed-list .top-row-alignment {
 	display: none;
 }
+
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail {
+    width: 142px!Important;
+    height: 80px!Important;
+    margin-top: -20px;
+    margin-left: -17px;
+}
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-thumbnail-container {
+    width: inherit!Important;
+    height: inherit!Important;
+}
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-thumbnail-container .ytp-progress-tooltip-thumbnail {
+    transform: scale(1.32)!important;
+    position: relative;
+    left: 17px;
+    top: 10px;
+}
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-timestamp-container, .exp-player-bigger-storyboard .ytp-progress-tooltip.with-text .ytp-progress-tooltip-timestamp-container {
+    width: 140px;
+}
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-arrow {
+    margin-left: 17px;
+}
