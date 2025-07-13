@@ -7314,6 +7314,9 @@ html:not(.internal) .topic-content li:empty{
 .center-text {
 	text-align: center;
 }
+
+
+
 .oz-notify-pane, .yf, .xf {
 	position: relative;
 	line-height: 100%;
@@ -9786,7 +9789,7 @@ input.jfk-round-checkbox:checked+.jfk-check-box {
 	padding-top: 0.1px;
 	padding-bottom: 0.1px;
 }*/
-html[data-player-size="large"] .appbar-mini-cinema .guide-module-toggle {
+.player-large.appbar-mini-cinema .guide-module-toggle {
 	pointer-events: none;
 	opacity:0;
 }
@@ -11348,9 +11351,21 @@ html[data-player-size="large"] .appbar-mini-cinema .guide-module-toggle {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
+.size-2x #yt-masthead #logo {
+    background:no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-2x-vflQMdvn5.png) -259px -96px;
+	background-size:331px auto;
+	width:72px;
+	height:30px
+}
 .exp-new-logo #yt-masthead #logo {
     background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflbk2Y8_.png) -313px -164px;
     background-size: auto;
+    width: 72px;
+    height: 30px;
+}
+/*.size-2x*/.exp-new-logo #yt-masthead #logo {
+    background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-2x-vfl_0aioS.png) 0px -1169px;
+    background-size: 77px 1293px;
     width: 72px;
     height: 30px;
 }
@@ -14405,7 +14420,7 @@ html {
 .logview-updater-extra {
     margin-top: 10px;
 }
-@media (min-width: 0px) and (max-width: 1056px) {
+@media (min-width: 0px) and (max-width: 1116px) {
     #watch7-sidebar {
         float: unset!important;
     }
@@ -14472,6 +14487,29 @@ html {
     width:20px;
     height:20px
 }
+
+/*
+.size-2x .yt-uix-button-icon-action-panel-details {
+	background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-2x-vflHWbe2U.png) -118px -220px;
+	background-size: 212px 579px;
+	width: 13px;
+	height: 13px;
+}
+*/
+.size-2x .yt-uix-button-icon-action-panel-share {
+	background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-watch8-2x-vfluCyw8S.png) 0 -154px;
+	background-size: 20px 196px;
+	width: 20px;
+	height: 20px;
+}
+.size-2x .yt-uix-button-icon-action-panel-addto,
+.size-2x .yt-uix-button-icon-action-panel-none-addto {
+	background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-watch8-2x-vfluCyw8S.png) 0 -18px;
+	background-size: 20px 196px;
+	width: 20px;
+	height: 20px;
+}
+
 
 #appbar-guide-button.yt-uix-button-text .yt-uix-button-icon-appbar-guide {
 	background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-guide-topguide-vflkYJhED.png) 0 -402px;
@@ -15401,7 +15439,7 @@ html:not(.gecko) .exp-top-guide .guide-quick-filter, html:not(.gecko) .exp-top-g
 .cardified-page .yt-card #watch7-creator-bar {
     margin-left: 0px;
 }
-.cardified-page .exp-individual-cards-watch #watch7-creator-bar {
+.cardified-page.exp-individual-cards-watch #watch7-creator-bar {
 	margin-top: -10px;
 }
 .watch8 #watch7-views-info .video-extras-likes-dislikes img {
@@ -16131,7 +16169,7 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
 .branded-page-module-title-v2 > * {
     display: table-cell;
 }
-.branded-page-module-title-v2 + .yt-uix-shelfslider-body .yt-lockup-grid .yt-lockup-content .yt-lockup-badges {
+.branded-page-module-title-v2 + .yt-uix-shelfslider-body .yt-lockup-grid:not(.yt-lockup-movie) .yt-lockup-content .yt-lockup-badges {
     display: none;
 }
 .branded-page-module-title-v2 .branded-page-module-avatar {
@@ -16514,10 +16552,10 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
     width: 100px!Important;
 }
 .exp-mini-guide.site-left-aligned #footer-container {
-    padding-left: 0!Important;
+    margin-left: 10px!Important;
 }
 .exp-mini-guide.site-left-aligned #page {
-    padding-left: 0px!Important;
+    margin-left: 0px!Important;
 }
 
 @media screen and (min-width: 1612px) {
@@ -16661,7 +16699,8 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
     content: "by ";
 }
 #pl-container .exp-video-list-rich-info .pl-video-owner {
-    width: 400px;
+    /*width: 400px;*/
+	width: auto;
 }
 .pl-video-list#pl-container .exp-video-list-rich-info .pl-video {
     padding-top: 20px;
@@ -18216,7 +18255,10 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
 }
 /* notificatiosn fixes */
 #masthead-positioner #masthead-expanded {
-    z-index:auto;
+    z-index:1;
+}
+#masthead-positioner #sb-wrapper {
+	z-index: 2;
 }
 .oz-video-embed-title-container {
     z-index: 0;
@@ -18337,7 +18379,7 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
 }
 
 .exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail {
-    width: 142px!Important;
+    /*width: 142px!Important;*/
     height: 80px!Important;
     margin-top: -20px;
     /*margin-left: -17px;*/
@@ -18346,12 +18388,8 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
     width: inherit!Important;
     height: inherit!Important;
 }
-.exp-player-bigger-storyboard .ytp-progress-tooltip.with-text .ytp-progress-tooltip-text-container {
-    background: rgba(31,31,31,0.45);
-    width: 71px!Important;
-}
 .exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail.with-text .ytp-progress-tooltip-thumbnail-container {
-	width: 71px!Important;
+	width: 142px!Important;
 }
 /*
 .exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-thumbnail-container .ytp-progress-tooltip-thumbnail {
@@ -18364,8 +18402,8 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
 .exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-timestamp-container, .exp-player-bigger-storyboard .ytp-progress-tooltip.with-text .ytp-progress-tooltip-timestamp-container {
     width: 140px;
 }
-.exp-player-bigger-storyboard .ytp-progress-tooltip.with-text .ytp-progress-tooltip-arrow {
-	margin-left: -3px;
+.exp-player-bigger-storyboard .ytp-progress-tooltip.with-text .ytp-progress-tooltip-text-container {
+	width: 142px!Important;
 }
 /*
 .exp-player-bigger-storyboard .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-arrow {
@@ -18551,4 +18589,292 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
 .jfk-dialog-window-control .oz-sprite.jfk-dialog-window-bottom {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHtJREFUOBHNj4EKgDAIRP0U2Y/26cXVlF04J4OgQDbn3fMS+cXXWjt3ysOvzBBCE503ZAWYzSmBN8WLJfIEkc82z2b+TjR/ff47m7k0E2WzbwCqemBrVJjZVkpGjYhEkNEMCHmo6StGyNtcAkAEY2QuA3qY8KDUaHYK5Aus+IiqlzuMuAAAAA5lWElmTU0AKgAAAAgAAAAAAAAA0lOTAAAAAElFTkSuQmCC");
 	top: -1px;
+}
+
+.sb-button {
+	height: 29px;
+    width: 29px;
+    padding: 0;
+    margin: 1px 6px 0 0;
+    border: 1px solid #cbcbcb;
+    background: #d3d3d3;
+    background: rgba(0,0,0,.1);
+    color: #545454;
+    color: rgba(0,0,0,.4);
+    font-size: 14px;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: top;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@media (min-width: 1037px) {
+	.page-loaded {
+		overflow-x: hidden;
+	}
+}
+
+.channel-switcher-button a.yt-uix-button {
+    height: 70px;
+    padding: 8px;
+    width: 316px;
+}
+#channel-switcher-content .yt-horizontal-rule {
+    margin: 20px 0;
+}
+#channel-switcher-content h2 {
+    margin: 30px 0;
+    margin-top: 27px;
+}
+.cardified-page #channel-switcher-content.yt-card h2 {
+	margin-top: 4px;
+}
+.channel-switcher-button .page-name .page-info {
+    font-size: 11px;
+    font-weight: 500;
+	color: #777;
+}
+#channel-switcher-content .gaia-account-section-title {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 12px 0;
+	margin-bottom: 15px;
+}
+
+.exp-top-guide .guide-channels-list {
+    max-height: 277.2px!Important;
+}
+
+body:not(.guide-enabled) #appbar-guide-button {
+	display: none;
+}
+
+.ypc-transact-offer .ypc-offer-thumbnail {
+	min-height: 100px;
+}
+
+@keyframes bingBongDefault {
+    0%   { 
+        background-image: -webkit-linear-gradient(top,#3d9400,#307500);
+    }
+    100% {
+        background-image: -webkit-linear-gradient(top,#47ad00,#398a00);
+    }
+}
+
+a.jfk-button {
+	text-decoration: none;
+}
+.jfk-button-default.jfk-button-bingbong {
+    animation: bingBongDefault 1s infinite;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*START MINI HOVI*/
+@media screen and (min-width:1360px) and (min-height:576px) {
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.site-center-aligned #player,
+	.exp-mini-guide-resize.appbar-flexwatch-mini.site-center-aligned #page.watch #content {
+		width: 1257px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-content,
+	.exp-mini-guide-resize.appbar-flexwatch-mini #watch7-content,
+	.exp-mini-guide-resize.appbar-flexwatch-mini #action-panel-stats.action-panel-content,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .player-width,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .player-unavailable .video-thumb img {
+		width: 854px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .action-panel-transition .action-panel-left {
+		left: -854px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .action-panel-transition .action-panel-right {
+		left: 854px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .player-height {
+		height: 510px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini #watch7-sidebar {
+		margin-top: -510px;
+	}
+
+	.exp-mini-guide-resize .watch-playlist #watch7-sidebar {
+		margin-top: -510px !important;
+		top: 510px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .action-panel-content,
+	.exp-mini-guide-resize.appbar-flexwatch-mini #watch7-creator-bar {
+		width: 814px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini #watch-description-extra-info {
+		margin-left: 624px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini #watch-description-clip {
+		width: 604px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-medium,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-width,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-unavailable .video-thumb img {
+		width: 854px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-medium:before {
+		height: 510px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-playlist.watch-medium:before {
+		height: 544px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-height {
+		height: 510px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .watch7-playlist-bar-left {
+		width: 554px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium #watch7-playlist-tray-container {
+		left: 554px;
+	}
+}
+
+@media screen and (min-width:1780px) and (min-height:816px) {
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini.site-center-aligned #player,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini.site-center-aligned #page.watch #content {
+		width: 1693px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .watch-content,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #watch7-content,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #action-panel-stats.action-panel-content,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .player-width,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .player-unavailable .video-thumb img {
+		width: 1280px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .action-panel-transition .action-panel-left {
+		left: -1280px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .action-panel-transition .action-panel-right {
+		left: 1280px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .player-height {
+		height: 750px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #watch7-sidebar {
+		margin-top: -750px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned .watch-playlist #watch7-sidebar {
+		margin-top: -750px !important;
+		top: 750px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini .action-panel-content,
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #watch7-creator-bar {
+		width: 1240px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #watch-description-extra-info {
+		margin-left: 1050px;
+	}
+
+	.exp-mini-guide-resize.site-left-aligned.appbar-flexwatch-mini #watch-description-clip {
+		width: 1030px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-medium,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-width,
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-unavailable .video-thumb img {
+		width: 1280px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-medium:before {
+		height: 750px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini.appbar-mini-cinema #player.watch-playlist.watch-medium:before {
+		height: 784px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .player-height {
+		height: 750px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium .watch7-playlist-bar-left {
+		width: 980px;
+	}
+
+	.exp-mini-guide-resize.appbar-flexwatch-mini .watch-medium #watch7-playlist-tray-container {
+		left: 980px;
+	}
+}
+
+.exp-mini-guide.site-left-aligned #footer {
+	margin-left: 10px !important;
+}
+
+.exp-mini-guide.site-left-aligned #alerts,
+.exp-mini-guide.site-left-aligned #ticker .ytg-wide,
+.exp-mini-guide.site-left-aligned #masthead-subnav {
+	margin-left: 15px !important;
+}
+
+/*END MINI HOVI*/
+
+.browse-feed-search-actions #channel-search .search-form {
+	padding-right: 0;
+}
+.browse-feed-search-actions #channel-search:not(.expanded) .search-form {
+	width: 0;
+}
+.browse-feed-search-actions #channel-search .epic-nav-item {
+	height: 25px;
+	line-height: 25px;
+}
+.browse-feed-search-actions #channel-search .yt-uix-button-icon-search {
+	height: 15px;
+}
+
+.info-tooltip {
+	display: inline-block;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -1px;
+    background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfl0jbpO7.png) -372px -20px;
+    background-size: auto;
+    width: 16px;
+    height: 16px;
+}
+#guide-container h3 .info-tooltip {
+    opacity: .5;
+    position: absolute;
+    top: -2px;
+}
+#guide-container h3 .info-tooltip:hover {
+    opacity: .75;
+}
+.gecko #guide-container h3 .info-tooltip {
+	top: 1px;
 }
