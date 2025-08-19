@@ -702,7 +702,7 @@ body #footer-container {
 .feed-header .feed-channel-header-title a, .feed-header.collection .feed-channel-header-title {
     color: var(--color-black-text);
 }
-.feed-author-bubble, .feed-author-bubble > * {
+.feed-author-bubble, .feed-author-bubble > *, .feeling-lucky-icon .yt-uix-button-icon-play-all {
     filter: invert(1);
 }
 .feed-item-container .feed-item-main {
