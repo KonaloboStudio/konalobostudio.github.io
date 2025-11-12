@@ -10225,7 +10225,7 @@ input.jfk-round-checkbox:checked+.jfk-check-box {
 .distiller_yt-post_comment_section .link_action .link_action_text:hover {
 	text-decoration:underline;
 }
-.expanded .oz-sprite-loader-arrow-down {
+.expanded > .loader > .link_action > .state > .link_action_icon .oz-sprite-loader-arrow-down {
 	transform: rotate(180deg);
 }
 .distiller_yt-post_comment_section .link_action .loading {
@@ -10235,7 +10235,7 @@ input.jfk-round-checkbox:checked+.jfk-check-box {
 .distiller_yt-post_comment_section .link_action .state {
 	display:none;
 }
-.distiller_yt-post_comment_section.normal .link_action .normal, .distiller_yt-post_comment_section.loading .link_action .loading, .distiller_yt-post_comment_section.expanded .link_action .expanded {
+.distiller_yt-post_comment_section.normal > .loader > .link_action > .normal, .distiller_yt-post_comment_section.loading > .loader > .link_action > .loading, .distiller_yt-post_comment_section.expanded > .loader > .link_action > .expanded {
 	display:block;
 }
 .distiller_yt-post_comment_section .comment {
@@ -12489,7 +12489,7 @@ span > .run-link, .detail_link > .run-link {
     display:none;
 }
 
-.distiller_yt-post_comment_section.normal .entries .contents {
+.distiller_yt-post_comment_section.normal > .entries > .contents {
     display:none;
 }
 .comment .pinned-post:before {
@@ -14470,7 +14470,11 @@ html {
     left: 0;
     background: #77777769;
     height: 5%;
-	max-height: 7px;
+	min-height: 3px;
+	max-height: 4px;
+}
+.ux-thumb-wrap .watched-progress + .video-time {
+	margin-bottom: 5px;
 }
 .ux-thumb-wrap .watched-progress .watched-progress-done {
     height: 100%;
@@ -18360,6 +18364,12 @@ body:not(.cardified-page) .branded-page-box > * + .branded-page-related-channels
     top: -1px;
     left: -1px;
 }
+.feed-list .top-row-alignment:after {
+    border: unset;
+    background: #fff;
+    padding-left: 3px;
+    padding-top: 1px;
+}
 
 #logo-container.card3d {
     outline: none!Important;
@@ -18976,7 +18986,7 @@ a.jfk-button {
     margin-left: -50px;
 }
 
-#player-api_VORAPI_ELEMENT_ID:not(:empty) {
+#player-api_VORAPI_ELEMENT_ID:not(.off-screen-target):not(:empty) {
     position: relative;
 }
 #player-api_VORAPI_ELEMENT_ID:not(:empty):after {
@@ -19712,3 +19722,28 @@ html:not([data-player-size="fullscreen"]) .queue-miniplayer #player .html5-video
 	position: fixed;
 }
 */
+
+.channel-header-profile-image {
+	width: auto!Important;
+	max-width: 100px;
+}
+
+#watch7-headline[style] {/*sponsorblock*/
+	display: block!Important;
+}
+
+.yt-alert-buttons .yt-uix-expander-head .yt-uix-button-arrow {
+	border-top-color: #fff;
+}
+
+/*NESTED REPLIES EXPERIMENT*/
+.distiller_yt-thread > .thread > .comments .distiller_yt-thread {
+    padding: 0;
+}
+.distiller_yt-thread > .thread > .comments .distiller_yt-thread .post {
+    margin-left: unset;
+    min-height: unset;
+}
+.distiller_yt-thread > .thread > .comments .distiller_yt-thread .comments {
+    margin-left: 42px;
+}
