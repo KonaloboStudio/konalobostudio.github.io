@@ -17205,7 +17205,7 @@ body.legacy-color, .exp-not-top-guide-fixed.legacy-color #guide-main, .legacy-co
 }
 .vl-filter .guide-quick-filter {
     font-size: 13px;
-    width: calc(100% - 12px)!Important;
+    width: calc(100% - 12px);
 }
 .vl-filter .guide-quick-filter-container {
     width: 100%;
@@ -19746,14 +19746,4 @@ html:not([data-player-size="fullscreen"]) .queue-miniplayer #player .html5-video
 }
 .distiller_yt-thread > .thread > .comments .distiller_yt-thread .comments {
     margin-left: 42px;
-}
-
-.size-2x #gb {
-    height: 29.9px!Important;
-}
-.site-left-aligned #page:not(.watch) #guide-main {
-    width: 172.9px;
-}
-.size-2x #progress[style*="top: 30px"] {
-    margin-top: -0.1px;
 }
