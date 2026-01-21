@@ -1320,3 +1320,30 @@ a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item,
 .feed-list .top-row-alignment {
 	border-bottom-color: var(--color-e2);
 }
+.feed-list .top-row-alignment:after {
+	background: var(--default-body-background-img)!Important;
+}
+#feed-pyv-container2 {
+    background: #1c1b17;
+}
+.rich-section-content > .yt-lockup-tile {
+    border-bottom-color: var(--color-e2);
+}
+.feed-header .metadata, .feed-header .metadata a, .account-page, h3.account-section-header, .account-content {
+    color: var(--color-555);
+}
+.account-container {
+    background: var(--color-fff);
+}
+.hh #yt-admin-content {
+    border-color: var(--color-f7);
+}
+#creator-sidebar h3, #creator-sidebar .creator-sidebar-section a {
+    color: var(--color-444);
+}
+.account-header h2 {
+    color: var(--color-333);
+}
+.account-section-setting {
+    color: var(--color-666);
+}
