@@ -1,91 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/tech/magixa_favicon.ico" />
   <link rel="stylesheet" href="/tech/start.css" />
   <link rel="stylesheet" href="/tech/new_index.css" />
-  <title>KonaloboWorld!</title>
-  <!-- определение превью в дискордике и прочее -->
-  <meta name="description" content="" />
-  <meta property="og:url" content="https://konalobostudio.github.io" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="KonaloboWorld!" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="/tech/site_preview/ind_prev.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="konalobostudio.github.io" />
-  <meta property="twitter:url" content="https://konalobostudio.github.io" />
-  <meta name="twitter:title" content="KonaloboWorld!" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="/tech/site_preview/ind_prev.png" />
-  <link rel="icon" href="/tech/magixa_favicon.ico" />
-  <script src="/tech/js/jquery-3.7.1.min.js"></script>
-  <script src="/tech/js/TweenMax.min.js"></script>
+  <title>KonaloboWorld V3!</title>
+  <script src="/tech/js/i18n.js"></script>
+  <script src="/tech/js/ind_clock.js"></script>
+  <script src="/tech/js/rnd_imagebuilder.js"></script>
+  <script src="/tech/js/component_loader.js"></script>
 </head>
 <body>
   <script src="/tech/js/preloader.min.js"></script>
-  <!-- <canvas id="rain"></canvas>
-  <script src="/tech/js/rain.js"></script>
-  <div class="magixa_p"></div>
-  -->
-  <script src="/tech/js/rnd_imagebuilder.js"></script>
-  
-  <div class="upper_panel_bg">
-    <div class="up_panel">
-      <p class="ks_wrld_int">KonaloboWorld</p>
-      <iframe
-        class="kse_links"
-        src="/brand.html"
-        scrolling="no"
-        width="100%"
-        style="overflow: hidden; height: 40px; border: 0px; margin: 5px"
-      ></iframe>
-    </div>
-  </div>
-  <div id="magixa_body">
-    <div class="windows">
-      <div class="center_window">
-        <div class="ins_wind">
-          <!-- <p class="ks_wrld_logo">KonaloboWorld</p> -->
-          <div class="btn_zone">
-            <button
-              onclick="location.href='sec/DL/index.html'"
-              class="button"
-            >
-              Download Center
-            </button>
-            <button
-              onclick="location.href='sec/MUSIC/index.html'"
-              class="button"
-            >
-              Music
-            </button>
-            <button
-              onclick="location.href='sec/VEG/index.html'"
-              class="button"
-            >
-              My VEG Files
-            </button>
-            <button
-              onclick="location.href='/pg3dcollect/index_pg.html'"
-              class="button"
-            >
-              Pixel Gun 3D Collection
-            </button>
-            <button
-              onclick="location.href='sec/minerlands/index.html'"
-              class="button"
-            >
-              Miner Lands
-            </button>
-            <!-- <button
-            onclick="location.href='/sec/MAGIXA/index.html'"
-            class="button"
+  <script src="/tech/js/vladbmw530.js"></script>
+  <header
+    class="up_panel_bg"
+    data-include="/tech/headers/header_index.html"
+  ></header>
+  <section class="new_index_image_zone">
+    <canvas id="tiles_canvas"></canvas>
+    <script src="/tech/js/tiles.js"></script>
+    <!-- <div class="ind_warning"><p class="copy_text">A TEST WARNING</p></div> -->
+    <div class="new_index_image_zone_perc"></div>
+    <div class="new_index_image_zone_desc"></div>
+    <h1 class="ks_wrld_logo">KonaloboWorld</h1>
+  </section>
+  <main class="new_index_section_2">
+    <div class="new_index_content_wrap">
+      <p class="ind_sec_name" data-i18n="ind_sec_sections">IND_SEC_SECTIONS</p>
+
+      <nav class="btn_grid">
+        <a
+          href="sec/DL/index.html"
+          class="ind_button"
+          data-i18n="btn_dl"
+          style="--btn-bg: url(&quot;/tech/ind_btns/btn_dl.png&quot;)"
+          >BTN_DL</a
+        >
+        <a
+          href="sec/MUSIC/index.html"
+          class="ind_button"
+          data-i18n="btn_music"
+          style="--btn-bg: url(&quot;/tech/ind_btns/btn_music.png&quot;)"
+          >BTN_MUSIC</a
+        >
+        <a
+          href="sec/VEG/index.html"
+          class="ind_button"
+          data-i18n="btn_veg"
+          style="--btn-bg: url(&quot;/tech/ind_btns/btn_veg.png&quot;)"
+          >BTN_VEG</a
+        >
+        <a
+          href="sec/PG3D/index.html"
+          class="ind_button"
+          data-i18n="btn_pg3d"
+          style="--btn-bg: url(&quot;/tech/ind_btns/btn_pg3d.png&quot;)"
+          >BTN_PG3D</a
+        >
+        <a
+          href="sec/MINE/list.html"
+          class="ind_button"
+          data-i18n="btn_minerlands"
+          style="--btn-bg: url(&quot;/tech/ind_btns/btn_mine.png&quot;)"
+          >BTN_MINERLANDS</a
+        >
+        <!-- <a
+              href="sec/WIKI/index.html"
+              class="ind_button"
+              data-i18n="btn_wiki"
+              >BTN_WIKI</a
+            > -->
+      </nav>
+      <p class="ind_sec_name" data-i18n="ind_sec_legacy_sections">
+        IND_SEC_LEGACY_SECTIONS
+      </p>
+      <p class="ind_sec_name_2" data-i18n="ind_sec_legacy_section_desc">
+        IND_SEC_LEGACY_SECTION_DESC
+      </p>
+      <nav class="btn_grid">
+        <a
+          href="sec/LEGACY/sosisonsk_news/index.html"
+          class="ind_button"
+          data-i18n="btn_legacy_sosis_news"
+          >BTN_LEGACY_SOSIS_NEWS</a
+        >
+      </nav>
+
+      <p class="ind_sec_name" data-i18n="ind_sec_socials">IND_SEC_SOCIALS</p>
+
+      <nav class="soc_grid">
+        <a
+          href="https://www.youtube.com/channel/UCvh1w3INwuRsMKpdrJsccoA/about"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="YouTube"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_yt.png&quot;);
+            --btn-glow: rgba(255, 0, 0, 0.6);
+          "
+        ></a>
+
+        <a
+          href="https://t.me/konalobostudio"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="Telegram"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_tg.png&quot;);
+            --btn-glow: rgba(36, 161, 222, 0.65);
+          "
+        ></a>
+
+        <a
+          href="https://discord.com/users/483248688668344321"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="Discord"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_ds.png&quot;);
+            --btn-glow: rgba(88, 101, 242, 0.65);
+          "
+        ></a>
+
+        <a
+          href="https://steamcommunity.com/id/catmanteam"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="Steam"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_steam.png&quot;);
+            --btn-glow: rgba(102, 192, 244, 0.65);
+          "
+        ></a>
+
+        <a
+          href="https://www.tiktok.com/@babadyk_sr"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="TikTok"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_tiktok.png&quot;);
+            --btn-glow: rgba(0, 0, 0, 0.65);
+          "
+        ></a>
+
+        <a
+          href="https://www.reddit.com/user/BrianN_YT/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="Reddit"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_reddit.png&quot;);
+            --btn-glow: rgba(255, 69, 0, 0.65);
+          "
+        ></a>
+
+        <a
+          href="https://archive.org/details/@iroha_tamaki"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="Archive.org"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_socarc.png&quot;);
+            --btn-glow: rgba(0, 0, 0, 0.65);
+          "
+        ></a>
+        <a
+          href="https://yummyani.me/users/id486922"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ind_soc_button"
+          title="YummyAnime"
+          style="
+            --btn-bg: url(&quot;/tech/ind_btns/btn_yumme.png&quot;);
+            --btn-glow: rgba(255, 69, 69, 0.65);
+          "
+        ></a>
+      </nav>
+
+      <footer class="copy">
+        <div class="copy_left">
+          <p class="copy_text">©KonaloboStudio 2022-2026</p>
+          <span class="copy_text"> | </span>
+          <a href="mailto:thesonicrus1@gmail.com" class="copy_text"
+            >thesonicrus1@gmail.com</a
           >
-            shh///
-          </button> ---> 
-          </div>
-          <p class="copy">©KonaloboStudio 2022-2024</p>
         </div>
-      </div>
+        <div class="copy_right">
+          <p class="copy_text">KonaloboWorld V3 - Builded in Oct 2026</p>
+          <span class="copy_text"> | </span>
+          <p class="copy_text">Powered by Github Pages</p>
+        </div>
+      </footer>
     </div>
-  </div>
+  </main>
 </body>

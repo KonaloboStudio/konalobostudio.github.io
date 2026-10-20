@@ -1,70 +1,174 @@
-body {
-  background: linear-gradient(#242424,#111111);
-}
-.magixa_p_404 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  min-height: 100vh;
-  background-size: contain; 
-  background-image: url(/tech/magixa_img/404err.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  z-index: 7;
-  filter: drop-shadow(0 0 0.75rem #002967);
-}
-@media (min-height: 800px) {
-  .magixa_p_404 {
-   background-size: auto;
-  }
-}
-h1 {
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  text-shadow: 0px 3px 3px black;
-}
-p {
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px black;
-}
-a:link,
-a:visited {
-  color: rgb(0, 225, 255);
-}
-.ks_wrld_logo {
-  font-size: 64px;
+@font-face {
   font-family: "28_days_later_cyrregular";
-  color: #00ddfa;
-  text-shadow: -5px -5px 0 #003483, 5px -5px 0 #003483, -5px 5px 0 #003483,
-    5px 5px 0 #003483, 0px 0px 20px #002967, 0px 0px 15px #002967,
-    0px 0px 10px #002967, 0px 0px 5px #002967;
+  src:
+    url("/tech/font/28_days_later_cyr_regular-webfont.woff2") format("woff2"),
+    url("/tech/font/28_days_later_cyr_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rotonda Regular";
+  src: url("/tech/font/RotondaC.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-body: "Rotonda Regular", Arial, sans-serif;
+  --font-logo: "28_days_later_cyrregular", sans-serif;
+  --text-sec-col: #c4d8ff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html {
+  scrollbar-width: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none;
+}
+
+html,
+body {
   margin: 0;
-  text-align: center;
-  padding-bottom: 10px;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--text-sec-col);
+  background-color: #070913;
+  background-image: url("/tech/back_alt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.windows {
+
+a,
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+}
+
+.four_text_wrap {
+  width: 100%;
+  height: 50vh;
+  min-height: 250px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(20, 28, 55, 0.55), rgba(10, 14, 28, 0.7)),
+    url(/tech/404-dither.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 30px 5px #000;
+  filter: drop-shadow(0 4px 20px rgb(0, 0, 0));
+  overflow: hidden;
+}
+
+.four_text_wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgb(0 20 84) 1.2px, #0015ff2e 1px);
+  background-size: 5px 5px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.four_text_wrap h1 {
+  position: relative;
+  z-index: 3;
+  font-family: var(--font-logo);
+  font-size: clamp(6rem, 24vw, 15rem);
+  line-height: 0.9;
+  margin: 0;
+  color: #ffffff;
+  user-select: none;
+  letter-spacing: 4px;
+  text-shadow:
+    0 0 25px rgba(0, 100, 250, 0.7),
+    0 4px 10px rgba(0, 0, 0, 0.9);
+}
+
+.four_desc_wrap {
+  width: 100%;
+  height: 40vh;
+  min-height: 250px;
+  position: relative;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(20, 28, 55), rgba(10, 14, 28));
+  box-shadow:
+    inset 0 0 30px 15px #000,
+    0px -10px 30px 15px #000;
 }
-.center_window {
-  background: linear-gradient(
-    rgba(100, 100, 100, 0.25),
-    rgba(70, 70, 70, 0.5)
-  );
-  border-radius: 7px;
-  box-shadow: 0px 3px 10px rgb(0 0 0 / 75%), inset 0px 0px 5px rgb(70, 70, 70);
-  backdrop-filter: blur(10px);
-  border: 2px solid rgba(95, 95, 95, 0.5);
-  width: 570px;
-  margin: 10px;
+
+.four_lang_wrap {
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  text-align: center;
+  background: #000;
 }
-.ins_wind {
-  margin: 10px;
+
+.four_desc_wrap p,
+.four_desc_wrap span {
+  max-width: 760px;
+  font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+  line-height: 1.6;
+  margin: 8px 0;
+  color: #d1e2ff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #00ddfa;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: bold;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 221, 250, 0.8);
+}
+
+.four_lang {
+  margin: 8px 0;
+  color: #d1e2ff;
+  text-decoration: none;
 }

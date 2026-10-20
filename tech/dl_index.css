@@ -4,9 +4,6 @@
   src: url("/tech/font/RotondaC.eot?#iefix") format("embedded-opentype");
   src: url("/tech/font/RotondaC.woff") format("woff");
 }
-html {
-  cursor: url("/tech/curs/blue_normal.cur"), pointer !important;
-}
 body {
   margin: 0;
   padding: 0;
@@ -33,11 +30,13 @@ body {
   padding: 1em;
   font-size: 0.95em;
   line-height: 1.5;
-  box-sizing: border-box;
-  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.425), 0 3px 6px rgba(0, 0, 0, 0.425);
+
+  box-shadow:
+    0 5px 6px rgba(0, 0, 0, 0.425),
+    0 3px 6px rgba(0, 0, 0, 0.425);
   background: linear-gradient(#88888888, #22222288);
   border-radius: 7px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
 }
 .adir h1 {
   font-weight: normal;
@@ -86,7 +85,7 @@ body {
 }
 .adir a:link {
   color: rgb(70, 205, 255);
-  text-decoration: none; 
+  text-decoration: none;
   text-shadow: 1px 1px 2px black;
 }
 .adir a:visited {
@@ -96,7 +95,6 @@ body {
   color: rgb(70, 205, 255);
 }
 .adir a:hover {
-  cursor: url("/tech/curs/blue_alt.cur"), pointer !important;
   color: orange;
 }
 .adir .col-file {

@@ -1,0 +1,342 @@
+{
+  "addons": [
+    {
+      "id": "laptop",
+      "title": {
+        "ru": "Аддон на ноутбук",
+        "en": "Laptops Addon"
+      },
+      "badge": {
+        "ru": "Bedrock Аддон",
+        "en": "Bedrock Addon"
+      },
+      "badgeClass": "badge_addon",
+      "shortDesc": {
+        "ru": "Декор для Minecraft Bedrock в виде разных ноутбуков и комплектующих.",
+        "en": "Decorative laptops and components for Minecraft Bedrock."
+      },
+      "fullDesc": {
+        "ru": "Аддон добавляет ноутбуки... Ноутбуки служат декорацией. Существуют ноутбуки с Windows XP, Vista, 7, 10, MacOS и те, где открыты разные программы. Помимо ноутбуков аддон добавляет разные комплектующие из OpenComputers. Комплектующие тоже декорация (к сожалению). Внимание - во время создания автор фанател по аниме с мадокой :)",
+        "en": "The addon adds laptops... Laptops serve as decoration. There are laptops with Windows XP, Vista, 7, 10, macOS, and those with different programs open. In addition to laptops, the addon adds various components from OpenComputers. The components are also just decorative (unfortunately). Warning: at the time of creation, the author was a fan of the anime with Madoka :)"
+      },
+      "image": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_vV4ReLohxp.jpg",
+      "link": "/sec/MINE/addon/laptop.html",
+      "screenshots": [
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_3nixZB7UNf.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_3nixZB7UNf.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_DHO63oiqt4.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_DHO63oiqt4.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_QRhXx4mlo7.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_QRhXx4mlo7.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_U0qbus1fpT.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_U0qbus1fpT.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_UPrdMu8bti.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_UPrdMu8bti.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_VdkLvHY0e0.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_VdkLvHY0e0.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_nWZ3w9Lrw4.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_nWZ3w9Lrw4.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_pP1SDl7dAY.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_pP1SDl7dAY.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/laptop/Minecraft.Windows_vV4ReLohxp.jpg",
+          "full": "/sec/MINE/assets/mod_screen/laptop/Minecraft.Windows_vV4ReLohxp.jpg"
+        }
+      ],
+      "recipes": [
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_2hGmbvWzdo.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_2wdgWVSScz.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_5lbzij0OQn.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_8y02s0KUiR.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_B7iYfCt2WI.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_CkDWa4Xbuo.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_EAIr7fWPaK.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_GBWt9h0aTk.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_IeD8U4eWiV.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_QNoCMcXG19.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_S91TyQWxVF.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_UrxuhOIbns.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_YWvp6BLxHt.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_cD4frKyuc8.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_ihpNi1ihGq.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_k0MlGoSDSj.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_tH1PrqBFsW.jpg",
+        "/sec/MINE/assets/mod_recipe/laptop/Minecraft.Windows_ymZKXTXPc3.jpg"
+      ],
+      "downloads": [
+        {
+          "title": {
+            "ru": "Билд от 20.10.2026",
+            "en": "Build from 20.10.2026"
+          },
+          "changes": {
+            "ru": [
+              "Опять ноуты",
+              "Адаптация к 1.21",
+              "Улучшенная архитектура аддона"
+            ],
+            "en": [
+              "Laptops (again)",
+              "Adapted to 1.21",
+              "Improved addon architecture"
+            ]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/laptop/PCMOD2.mcaddon"
+        },
+        {
+          "title": {
+            "ru": "Билд от 29.12.2022",
+            "en": "Build from 29.12.2022"
+          },
+          "changes": {
+            "ru": [
+              "4 новых ноутбука",
+              "Улучшена архитектура мода",
+              "Русский перевод"
+            ],
+            "en": [
+              "4 new laptops",
+              "Improved addon architecture",
+              "Russian translation"
+            ]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/laptop/29.12.2022.zip"
+        },
+        {
+          "title": {
+            "ru": "Билд от 05.09.2021",
+            "en": "Build from 05.09.2021"
+          },
+          "changes": {
+            "ru": ["4 новых ноутбука", "Комплектующие"],
+            "en": ["4 new laptops", "PC components"]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/laptop/05.09.2021.zip"
+        }
+      ]
+    },
+    {
+      "id": "shawerma",
+      "title": {
+        "ru": "Аддон на шаурму",
+        "en": "Shawerma Addon"
+      },
+      "badge": {
+        "ru": "Bedrock Аддон",
+        "en": "Bedrock Addon"
+      },
+      "badgeClass": "badge_addon",
+      "shortDesc": {
+        "ru": "Обычная вкусная шаурма для Minecraft Bedrock, сделанная по рецепту iTerr.",
+        "en": "Delicious classic shawerma for Minecraft Bedrock, made following iTerr's recipe."
+      },
+      "fullDesc": {
+        "ru": [
+          "Аддон добавляет Шаурму в Minecraft. При сьедании выдается дикая регенерация здоровья и 14 сердечек поверх основной шкалы.",
+          "Шаурма. Айди для получения - pa:shawerma",
+          "Майонез 'Слизода'. Айди для получения - pa:Slizoda",
+          "EnderШаурма. Айди для получения - pa:enderma",
+          "Салат. Айди для получения - pa:salat"
+        ],
+        "en": [
+          "The addon adds Shawerma to Minecraft. When eaten, it gives extreme health regeneration and 14 hearts on top of the main health bar.",
+          "Shawerma. ID to get - pa:shawerma",
+          "Mayonnaise 'Slizoda'. ID to get - pa:Slizoda",
+          "EnderShawerma. ID to get - pa:enderma",
+          "Salad. ID to get - pa:salat"
+        ]
+      },
+      "image": "/sec/MINE/assets/mod_thumb/shawerma/Screenshot_20200724-005819-1.jpg",
+      "link": "/sec/MINE/addon/shawerma.html",
+      "screenshots": [
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/shawerma/Screenshot_20200724-005819-1.jpg",
+          "full": "/sec/MINE/assets/mod_screen/shawerma/Screenshot_20200724-005819-1.jpg"
+        }
+      ],
+      "recipes": [
+        "/sec/MINE/assets/mod_recipe/shawerma/Screenshot_20200724-005819-1_cr.jpg"
+      ],
+      "downloads": [
+        {
+          "title": {
+            "ru": "Билд от 24.07.2020",
+            "en": "Build from 24.07.2020"
+          },
+          "changes": {
+            "ru": ["Релизная версия"],
+            "en": ["Release version"]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/shawerma/ShawermaMod_1595592917782.zip"
+        }
+      ]
+    }
+  ],
+  "texturepacks": [
+    {
+      "id": "fredjpig",
+      "title": {
+        "ru": "Fredj Pig",
+        "en": "Fredj Pig"
+      },
+      "badge": {
+        "ru": "Текстурпак",
+        "en": "Texture Pack"
+      },
+      "badgeClass": "badge_texture",
+      "shortDesc": {
+        "ru": "Заменяет текстуру свиньи на скин Фреджа, а с надетым седлом — превращает её в сосиску.",
+        "en": "Replaces the pig texture with Fredj skin, and with a saddle turns it into a sosiskakiller."
+      },
+      "fullDesc": {
+        "ru": "Заменяет текстурку свиньи на... Фреджа! А если надеть седло на фреджа, он превратится в СОСИСКУ!",
+        "en": "Replaces the pig texture with... Fredj! And if you put a saddle on Fredj, it turns into a SOSISKAKILLER!"
+      },
+      "image": "/sec/MINE/assets/mod_thumb/fredjpig/Screenshot_20200131-104752.jpg",
+      "link": "/sec/MINE/texturepacks/fredjpig.html",
+      "screenshots": [
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/fredjpig/Screenshot_20200131-104752.jpg",
+          "full": "/sec/MINE/assets/mod_screen/fredjpig/Screenshot_20200131-104752.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/fredjpig/Screenshot_20200717-125034.jpg",
+          "full": "/sec/MINE/assets/mod_screen/fredjpig/Screenshot_20200717-125034.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/fredjpig/Screenshot_20200129-192603.jpg",
+          "full": "/sec/MINE/assets/mod_screen/fredjpig/Screenshot_20200129-192603.jpg"
+        }
+      ],
+      "downloads": [
+        {
+          "title": {
+            "ru": "Билд от 31.01.2020",
+            "en": "Build from 31.01.2020"
+          },
+          "changes": {
+            "ru": ["Релизная версия"],
+            "en": ["Release version"]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/fredjpig/fregjpig.zip"
+        }
+      ]
+    },
+    {
+      "id": "sosiskablocks",
+      "title": {
+        "ru": "Sosiska Blocks",
+        "en": "Sosiska Blocks"
+      },
+      "badge": {
+        "ru": "Текстурпак",
+        "en": "Texture Pack"
+      },
+      "badgeClass": "badge_texture",
+      "shortDesc": {
+        "ru": "Заменяет текстуру драгоценных блоков на скины персонажей с канала FredjGrief.",
+        "en": "Replaces precious blocks textures with skins of characters from the FredjGrief channel."
+      },
+      "fullDesc": {
+        "ru": [
+          "Заменяет текстуру драгоценных блоков на скины персонажей с канала FredjGrief.",
+          "Алмазный блок - SosiskaKiller",
+          "Изумрудный блок - FivFiv1338",
+          "Золотой блок - FredjGrief (kapycta123)",
+          "Железный блок - President (SexBomba3131)",
+          "Лазуритный блок - PiskoCTroy"
+        ],
+        "en": [
+          "Replaces the texture of precious blocks with skins of characters from the FredjGrief channel.",
+          "Diamond block - SosiskaKiller",
+          "Emerald block - FivFiv1338",
+          "Gold block - FredjGrief (kapycta123)",
+          "Iron block - President (SexBomba3131)",
+          "Lapis Lazuli block - PiskoCTroy"
+        ]
+      },
+      "image": "/sec/MINE/assets/mod_thumb/sosiskablocks/Screenshot_20200710-115043.jpg",
+      "link": "/sec/MINE/texturepacks/sosiskablocks.html",
+      "screenshots": [
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/sosiskablocks/Screenshot_20200710-115043.jpg",
+          "full": "/sec/MINE/assets/mod_screen/sosiskablocks/Screenshot_20200710-115043.jpg"
+        }
+      ],
+      "downloads": [
+        {
+          "title": {
+            "ru": "Билд от 10.07.2020",
+            "en": "Build from 10.07.2020"
+          },
+          "changes": {
+            "ru": ["Релизная версия"],
+            "en": ["Release version"]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/sosiskablocks/SosiskaBlocks.zip"
+        }
+      ]
+    },
+    {
+      "id": "openglfix",
+      "title": {
+        "ru": "OpenGL Shader 0.12.x Fix",
+        "en": "OpenGL Shader 0.12.x Fix"
+      },
+      "badge": {
+        "ru": "Текстурпак",
+        "en": "Texture Pack"
+      },
+      "badgeClass": "badge_texture",
+      "shortDesc": {
+        "ru": "Адаптация OpenGL Shader под Minecraft PE 0.12.x.",
+        "en": "Adaptation of OpenGL Shader for Minecraft PE 0.12.x."
+      },
+      "fullDesc": {
+        "ru": "Адаптация OpenGL Shader под Minecraft PE 0.12.x.",
+        "en": "Adaptation of OpenGL Shader for Minecraft PE 0.12.x."
+      },
+      "image": "/sec/MINE/assets/mod_thumb/openglfix/IMG_20200709_011124.jpg",
+      "link": "/sec/MINE/texturepacks/openglfix.html",
+      "screenshots": [
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/openglfix/IMG_20200709_011124.jpg",
+          "full": "/sec/MINE/assets/mod_screen/openglfix/IMG_20200709_011124.jpg"
+        },
+        {
+          "thumb": "/sec/MINE/assets/mod_thumb/openglfix/IMG_20200709_011054.jpg",
+          "full": "/sec/MINE/assets/mod_screen/openglfix/IMG_20200709_011054.jpg"
+        }
+      ],
+      "downloads": [
+        {
+          "title": {
+            "ru": "Билд от 07.07.2020",
+            "en": "Build from 07.07.2020"
+          },
+          "changes": {
+            "ru": ["Релизная версия"],
+            "en": ["Release version"]
+          },
+          "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MINE_SEC/openglfix/openglfix.zip"
+        }
+      ]
+    }
+  ]
+}

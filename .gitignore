@@ -1,8 +1,13 @@
 desktop.ini
-thumbs.db
+[Tt]humbs.db
 .DS_Store
+AlbumArtSmall.jpg
+Folder.jpg
 *.sfk
 *.tmp
 tech/untitled.adir
-AlbumArtSmall.jpg
-Folder.jpg
+sec/WIKI/
+sec/WIKI/editor.html
+tech/INTERNALS/
+sec/DL_TEST/
+classicskype/index.html

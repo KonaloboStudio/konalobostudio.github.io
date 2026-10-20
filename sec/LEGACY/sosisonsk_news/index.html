@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новости!</title>
+    <style type="text/css">
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      html {
+        background: #ffc89a;
+        min-height: 100%;
+        font-family: Helvetica;
+        display: flex;
+        flex-direction: column;
+      }
+      body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex: 1 0;
+        box-sizing: border-box;
+      }
+      main {
+        padding: 0 15px;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      h1,
+      p {
+        color: #006064;
+      }
+      img {
+        border: 0;
+      }
+      .header {
+        background: #232323;
+        width: 100%;
+        margin: 0 auto 30px;
+        padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+      }
+      .nav {
+        margin: -5px 0 0 -5px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .nav-item {
+        background: #bdc7ff;
+        height: 50px;
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        margin: 5px 0 0 5px;
+        padding: 0px 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      .sqr {
+        height: 300px;
+        width: 300px;
+        background: #ffdb89;
+      }
+
+      .main {
+        width: 100%;
+        min-width: 460px;
+        max-width: 960px;
+        margin: auto;
+        flex: auto;
+        box-sizing: border-box;
+      }
+      .box {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        margin: 0 0 40px -50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .box-base {
+        margin-left: 50px;
+        flex: 1 0 430px;
+      }
+      .box-side {
+        margin-left: 50px;
+        font: none;
+      }
+      .box-img {
+        max-width: 100%;
+        height: auto;
+      }
+      .content {
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .banners {
+        flex: 1 1 200px;
+      }
+      .banner {
+        background: #ffdb89;
+        width: 100%;
+        min-width: 100px;
+        min-height: 200px;
+        font-size: 3rem;
+        color: #fff;
+        margin: 0 0 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .posts {
+        margin: 0 0 30px 30px;
+        flex: 1 1 200px;
+      }
+      .comments {
+        margin: 0 0 30px 30px;
+        flex: 1 1 200px;
+      }
+      .comment {
+        display: flex;
+      }
+      .comment-side {
+        padding-right: 20px;
+        flex: none;
+      }
+      .comment-base {
+        flex: auto;
+      }
+      .comment-avatar {
+        background: #ffa985;
+        width: 50px;
+        height: 50px;
+      }
+      .footer {
+        background: #ff3366;
+        color: #fff;
+        padding: 15px;
+      }
+
+      @media screen and (max-width: 800px) {
+        .banners {
+          margin-left: -30px;
+          display: flex;
+          flex-basis: 100%;
+        }
+        .banner {
+          margin-left: 30px;
+        }
+        .posts {
+          margin-left: 0;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .content {
+          display: block;
+        }
+        .banners {
+          margin: 0;
+          display: block;
+        }
+        .banner {
+          margin-left: 0;
+        }
+        .posts {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="http://google.com/">Главная страница</a>
+      <a href="http://google.com/">Форум</a>
+      <a href="http://google.com/">Войти</a>
+      <a href="http://google.com/">Регистрация</a>
+    </header>
+    <main>
+      <h1>Привет, Недрочабрь</h1>
+      <i><color: C0C0C0>3 ноября 2021, 4:04</i>
+      <p>
+        Сейчас начинается ноябрь. Для нормальных людей это обычный месяц, но для
+        пацанов которым лишь бы аниме посмотреть это сущий кошмар. Ведь в этом
+        месяце в интернете начинается челлендж под названием
+        <a href="http://google.com/">Недрочабрь</a>. Вся суть челленджа
+        заключается в том, что людям запрещается мастурбировать, тот кто
+        проигрывает - становится так называемым дрочаебом.<br />
+        Основатель челленджа - PRO100HUI, говорит что так можно неплохо
+        поиздеваться над своими врагами или проверить своих друзей на
+        пиздабольство (например твой друг говорит что сейчас недрочабрь и надо
+        бы воздержаться от этого, а потом ты его палишь за наяриванием на
+        лоличек).<br />
+        Ну посмотрим, сколько людей выдержат ноябрь. Будем следить за
+        событиями...
+      </p>
+      <nav class="nav">
+        <a class="nav-item">Комменты(385)</a>
+        <a class="nav-item">Лайк(1123)</a>
+        <a class="nav-item">Дизлайк(много)</a>
+        <a class="nav-item">Репост(38)</a>
+      </nav>
+      <div class="comment-base">
+        <h1 class="comment-title">Топ комменты</h1>
+        <p class="comment">
+          xxtenon: пошел нахуй этот челик, я не смогу это выдержать
+        </p>
+        <p class="comment">
+          sosiskakiller: мне интересно, сколько фредж продержится
+        </p>
+        <p class="comment">
+          derek1997: теперь моя игра которую я загрузил в стим не окупится...
+          хотя... ее все равно скоро забанят
+        </p>
+      </div>
+      <nav class="nav">
+        <a class="nav-item">Следующая новость</a>
+        <a class="nav-item">Прошлая новость</a>
+      </nav>
+
+      <h1>Популярные новости месяца</h1>
+      <a href="http://google.com/">В Басястополе был взорван мост Каллахан</a
+      ><br />
+      <a href="http://google.com/">Закрытие серверов Pixel Gun World</a><br />
+      <a href="http://google.com/">Сосискиным 2 года</a><br />
+      <a href="http://google.com/"><i>мардер, допиши озвучку</i></a
+      ><br />
+      <a href="http://google.com/"
+        >Неделя юбилеев: GTA 3 и Windows XP исполнилось 20 лет</a
+      ><br />
+    </main>
+    <footer class="footer">
+      <center>©SP.com 2007-2021, Сервера находятся в Басястополе</center>
+    </footer>
+  </body>
+</html>

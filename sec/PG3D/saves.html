@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="./assets/pg3d.ico" />
+    <link rel="stylesheet" href="./pg3d.css" />
+    <title>Pixel Gun 3D Collection</title>
+
+    <script src="/tech/js/i18n.js"></script>
+    <script src="/tech/js/component_loader.js"></script>
+    <script src="/tech/js/image_modal.js"></script>
+    <script src="./assets/pg3dimgloader.js"></script>
+  </head>
+  <body>
+    <header
+      class="pg3d_header_bg"
+      data-include="/tech/headers/header_pg3d.html"
+    ></header>
+    <div class="pg3d_container">
+      <main class="pg3d_site_main_sec">
+        <section class="pg3d_site_sec">
+          <p class="pg3d_sec_wel" data-i18n="pg3d_saves_wel">PG3D_SAVES_WEL</p>
+          <hr class="pg3d_divider" />
+          <section class="pg3d_category_grid pg3d_saves_grid">
+            <div class="pg3d_category_left">
+              <p class="pg3d_sec_text" data-i18n="pg3d_saves_wel2">
+                PG3D_SAVES_WEL2
+              </p>
+              <div class="pg3d_category_right">
+                <a
+                  href="https://drive.google.com/drive/folders/1q5vl1-hlvjtUIH4zrc1NnlKuD6rV4Z-x?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pg3d_gdrive_link"
+                  data-i18n-title="pg3d_gdrive_part1_title"
+                  title="PG3D_GDRIVE_PART1_TITLE"
+                >
+                  <img
+                    src="./assets/img/gdrive button.png"
+                    alt="Google Drive"
+                    class="pg3d_gdrive_img"
+                  />
+                </a>
+              </div>
+              <p class="pg3d_sec_text" data-i18n="pg3d_saves_yt_tut">
+                PG3D_SAVES_YT_TUT
+              </p>
+              <div class="pg3d_video_container">
+                <iframe
+                  src="https://www.youtube.com/embed/M8XwEnMp7Zg"
+                  frameborder="0"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="pg3d_category_right pg3d_saves_gallery">
+              <div class="pg3d_save_image_box">
+                <img
+                  src="./assets/img_thumb/saves/tn_7save.jpg"
+                  data-full="./assets/img/saves/7save.jpg"
+                  class="pg3d_save_template"
+                  alt="7.x - 8.x"
+                  loading="lazy"
+                />
+                <p class="pg3d_save_image_sec_text">7.x - 8.x</p>
+              </div>
+              <div class="pg3d_save_image_box">
+                <img
+                  src="./assets/img_thumb/saves/tn_10save.jpg"
+                  data-full="./assets/img/saves/10save.jpg"
+                  class="pg3d_save_template"
+                  alt="9.x - 10.2"
+                  loading="lazy"
+                />
+                <p class="pg3d_save_image_sec_text">9.x - 10.2</p>
+              </div>
+              <div class="pg3d_save_image_box">
+                <img
+                  src="./assets/img_thumb/saves/tn_11save.jpg"
+                  data-full="./assets/img/saves/11save.jpg"
+                  class="pg3d_save_template"
+                  alt="10.3 - 11.3"
+                  loading="lazy"
+                />
+                <p class="pg3d_save_image_sec_text">10.3 - 11.3</p>
+              </div>
+              <div class="pg3d_save_image_box">
+                <img
+                  src="./assets/img_thumb/saves/tn_13save.jpg"
+                  data-full="./assets/img/saves/13save.jpg"
+                  class="pg3d_save_template"
+                  alt="11.4 - 14.x"
+                  loading="lazy"
+                />
+                <p class="pg3d_save_image_sec_text">11.4 - 14.x</p>
+              </div>
+              <div class="pg3d_save_image_box">
+                <img
+                  src="./assets/img_thumb/saves/tn_15save.jpg"
+                  data-full="./assets/img/saves/15save.jpg"
+                  class="pg3d_save_template"
+                  alt="15.x"
+                  loading="lazy"
+                />
+                <p class="pg3d_save_image_sec_text">15.x</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <hr class="pg3d_divider" />
+        <section class="pg3d_site_sec">
+          <p class="pg3d_fan_screen_p" data-i18n="pg3d_saves_manual_i_wel">
+            PG3D_SAVES_MANUAL_I_WEL
+          </p>
+          <div class="pg3d_saves_steps_box">
+            <ol>
+              <li
+                class="pg3d_saves_step_item"
+                data-i18n="pg3d_saves_step1"
+              ></li>
+              <li
+                class="pg3d_saves_step_item"
+                data-i18n="pg3d_saves_step2"
+              ></li>
+            </ol>
+          </div>
+
+          <div class="pg3d_saves_alert_box">
+            <ol>
+              <li
+                class="pg3d_saves_alert_item"
+                data-i18n="pg3d_saves_warn1"
+              ></li>
+              <li
+                class="pg3d_saves_alert_item"
+                data-i18n="pg3d_saves_warn2"
+              ></li>
+            </ol>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="pg3dModal" class="pg3d_modal" role="dialog" aria-modal="true">
+      <span class="pg3d_modal_close" title="Close">&times;</span>
+      <div class="pg3d_modal_wrapper">
+        <img class="pg3d_modal_content" id="pg3dModalContent" />
+        <div class="pg3d_modal_caption" id="pg3dModalCaption"></div>
+      </div>
+    </div>
+    <footer
+      class="pg3d_footer_bg"
+      data-include="/tech/headers/footer_pg3d.html"
+    ></footer>
+  </body>
+</html>

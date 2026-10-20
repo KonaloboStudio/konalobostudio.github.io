@@ -1,9 +1,10 @@
 :root {
-  --plyr-color-main: linear-gradient(#18aaf9, #0a62e6);
-  --plyr-audio-controls-background: linear-gradient(#fff, #c4c4c4);
+  --plyr-color-main: linear-gradient(#4156cf, #283aa0);
+  --plyr-audio-controls-background: linear-gradient(#303758, #0f193a);
   --plyr-menu-radius: 5px;
-  --plyr-audio-control-color: #3b3b3b;
-  --plyr-menu-color: #3b3b3b;
+  --plyr-audio-control-color: #ffffff;
+  --plyr-menu-color: #232323;
+  --plyr-menu-background: #dbe6ff;
 }
 .plyr {
   border-radius: 5px;
@@ -14,8 +15,58 @@
   font-size: 16px;
 }
 .plyr--full-ui input[type="range"] {
-  color: #1187f0 !important;
+  color: #4156cf !important;
 }
+
 .plyr__menu__container {
-  backdrop-filter: blur(10px);
+  bottom: 100%;
+  top: auto;
+  margin-bottom: 6px;
+  z-index: 100;
+  background: #dbe6ff !important;
+  background-color: #dbe6ff !important;
+  opacity: 1 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 100, 250, 0.25);
+}
+
+.plyr__menu__container::after {
+  top: 100%;
+  bottom: auto;
+  border-bottom-color: transparent !important;
+}
+
+.plyr__menu__container > div {
+  max-height: 135px !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #4156cf #c8d8fb;
+}
+
+.plyr__menu__container > div::-webkit-scrollbar {
+  width: 6px;
+}
+
+.plyr__menu__container > div::-webkit-scrollbar-track {
+  background: #c8d8fb;
+  border-radius: 3px;
+}
+
+.plyr__menu__container > div::-webkit-scrollbar-thumb {
+  background: #4156cf;
+  border-radius: 3px;
+}
+
+.plyr__menu__container .plyr__control {
+  color: #1a1a2e !important;
+  font-weight: 500;
+}
+
+.plyr__menu__container .plyr__control:hover {
+  background: rgba(65, 86, 207, 0.15) !important;
+}
+
+.plyr--menu-open {
+  z-index: 100 !important;
 }
