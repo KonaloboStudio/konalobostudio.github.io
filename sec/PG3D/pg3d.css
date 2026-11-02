@@ -64,7 +64,7 @@ body {
 .pg3d_header_bg {
   width: 100%;
   min-height: 94px;
-  background: linear-gradient(to top, #2661a8, #2188e2);
+  background: linear-gradient(to top, #2661a8cc, #2188e2fa);
   box-shadow: 0 5px 10px rgba(13, 29, 83, 0.8);
   position: relative;
   z-index: 50;
@@ -76,7 +76,7 @@ body {
   min-height: 100px;
   height: auto;
   margin-top: auto;
-  background: linear-gradient(to top, #164988, #2661a8);
+  background: linear-gradient(to top, #164988fa, #2661a8cc);
   box-shadow: 0 -4px 10px rgba(13, 29, 83, 0.6);
   position: relative;
   z-index: 10;
