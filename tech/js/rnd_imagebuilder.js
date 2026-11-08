@@ -6,61 +6,91 @@
     "/tech/bg/randombg2.jpg",
     "/tech/bg/randombg3.jpg",
     "/tech/bg/randombg4.jpg",
-    "/tech/bg/randombg5.jpg"
+    "/tech/bg/randombg5.jpg",
   ];
 
   const phrPerc = [
+    // left
     {
       src: "/tech/magixa_img/temp_v3_1.png",
       position: "left bottom",
-      desc: "2k-tan / art by hinemosu notari"
-    },
-    {
-      src: "/tech/magixa_img/temp_v3_2.png",
-      position: "right bottom",
-      desc: "Natsuki by Pyohato"
+      desc: "2k-tan - art by hinemosu notari",
     },
     {
       src: "/tech/magixa_img/temp_v3_3.png",
       position: "left bottom",
-      desc: "Toro Inoue by Sony Computer Entertainment"
+      desc: "Toro Inoue by Sony Computer Entertainment",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_5.png",
+      position: "left bottom",
+      desc: "Bonnika by Pyohato",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_8.png",
+      position: "left bottom",
+      desc: "FL Chan by Image-Line (By an unknown artist)",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_15.png",
+      position: "left bottom",
+      desc: "Chara by Toby Fox (By an unknown artist)",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_16.png",
+      position: "left bottom",
+      desc: "Mio Naganohara by Keiichi Arawi (By an unknown artist)",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_13.png",
+      position: "left bottom",
+      desc: "Natsuki - art by B4_Yonten",
+    },
+
+    // right
+    {
+      src: "/tech/magixa_img/temp_v3_2.png",
+      position: "right bottom",
+      desc: "Natsuki by Pyohato",
     },
     {
       src: "/tech/magixa_img/temp_v3_4.png",
       position: "right bottom",
-      desc: "Eris by Pyohato"
+      desc: "Eris by Pyohato",
     },
-        {
-      src: "/tech/magixa_img/temp_v3_5.png",
-      position: "left bottom",
-      desc: "Bonnika by Pyohato"
-    },
-        {
+    {
       src: "/tech/magixa_img/temp_v3_6.png",
       position: "right bottom",
-      desc: "Licorice by Pyohato"
+      desc: "Licorice by Pyohato",
     },
-            {
+    {
       src: "/tech/magixa_img/temp_v3_7.png",
       position: "right bottom",
-      desc: "Magixa (V1) by konalobo"
+      desc: "Magixa (V1) by konalobo",
     },
-                {
-      src: "/tech/magixa_img/temp_v3_8.png",
-      position: "left bottom",
-      desc: "FL Chan by Image-Line"
-    },
-                {
+    {
       src: "/tech/magixa_img/temp_v3_9.png",
       position: "right bottom",
-      desc: "Konata Izumi by Kagami Yoshimizu"
+      desc: "Konata Izumi by Kagami Yoshimizu",
     },
-                {
+    {
+      src: "/tech/magixa_img/temp_v3_10.png",
+      position: "right bottom",
+      desc: "Blaze the Cat - art by yamimatsu7",
+    },
+    {
+      src: "/tech/magixa_img/temp_v3_12.png",
+      position: "right bottom",
+      desc: "Yui Hirasawa - art by ひみつ吉",
+    },
+
+    // vlados
+    {
       src: "/tech/magixa_img/temp_v3_99.png",
       position: "left bottom",
-      desc: ""
-    }
-
+      desc: "",
+      // а что есть ввести 'уменяглюкиилиэтовлад' в консоль?
+    },
   ];
 
   function setRandomBackground(element, imageArray) {
@@ -102,8 +132,7 @@
   function init() {
     setRandomBackground(document.body, phrBody);
 
-    const percEl =
-      document.querySelector(".new_index_image_zone_perc");
+    const percEl = document.querySelector(".new_index_image_zone_perc");
     const descEl = document.querySelector(".new_index_image_zone_desc");
 
     setRandomCharacter(percEl, descEl, phrPerc);

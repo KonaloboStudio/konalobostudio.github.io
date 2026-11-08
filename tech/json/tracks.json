@@ -37,7 +37,7 @@
   ],
   "main": [
     {
-      "title": "Small SR mix and free loop",
+      "title": "микс из обычного лупа и части ремикса",
       "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/a4umerkrc.mp3"
     },
     {
@@ -91,6 +91,14 @@
   ],
   "layouts": [
     {
+      "title": "Sparta AIBOMB Base (not finished)",
+      "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/layout/SpartaAIBOMBBase.mp3"
+    },
+    {
+      "title": "oneshit",
+      "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/layout/2026-11-07oneshit.mp3"
+    },
+    {
       "title": "7.flp in minecraft",
       "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/layout/7flpminecraft.mp3"
     },
@@ -111,7 +119,7 @@
       "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/layout/sparta%20semi%20kse%2015.mp3"
     },
     {
-      "title": "XZ mix while watching GTA online streams",
+      "title": "mix while watching GTA online streams",
       "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/layout/xz%20pridumal%20poka%20vidosi%20po%20zhTa%20online%20smotrel.mp3"
     },
     {
@@ -219,6 +227,10 @@
     {
       "title": "ORIG BY Leva Bublik - Sparta Bezbab Extended Base",
       "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/SPARTA/etc/ORIG%20BY%20Leva%20Bublik%20-%20Sparta%20Bezbab%20Extended%20Base.mp3"
+    },
+    {
+      "title": "ORIG BY Spencer Everly - Sparta Pulse X V2 Base FIXED",
+      "url": "https://codeberg.org/KonaloboStudio/KonaloboWorld_DL-Center/raw/branch/main/MUSIC/SPARTA/etc/Sparta_Pulse_X_V2_Base_2.mp3"
     }
   ],
   "sparta_custom": [

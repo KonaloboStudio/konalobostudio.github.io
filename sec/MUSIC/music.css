@@ -70,12 +70,6 @@
   z-index: 30;
 }
 
-.li_track.is-menu-open,
-.li_track:has(.plyr--menu-open),
-.li_track:has(.plyr__control[aria-expanded="true"]) {
-  z-index: 105 !important;
-}
-
 .track_desc {
   font-weight: bold;
   text-align: center;

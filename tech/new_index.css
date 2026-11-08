@@ -301,3 +301,9 @@
   color: var(--text-sec-col);
   text-shadow: 1px 1px 2px black;
 }
+
+@media (max-width: 619px) {
+  .new_index_image_zone {
+    height: 250px;
+  }
+}
